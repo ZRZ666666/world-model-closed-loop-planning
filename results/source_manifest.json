@@ -1,0 +1,120 @@
+{
+  "schema": "result-source-manifest-v1",
+  "original_root": "<RESEARCH_ROOT>",
+  "release_date": "2026-10-14",
+  "description": "Transcribed from the existing result provenance table; no numerical results recomputed.",
+  "files": [
+    {
+      "original_relative_path": "work/wm108_temporal_context_20261004/final_v1/summary.json",
+      "published_path": "results/wm108/summary.json",
+      "original_sha256": "1d0778e079e4a9833fdc6f6fd0eace755dfd211a884da5baa6eb3ffe8207a3b6",
+      "published_sha256": "1d0778e079e4a9833fdc6f6fd0eace755dfd211a884da5baa6eb3ffe8207a3b6",
+      "transformation": "字节一致"
+    },
+    {
+      "original_relative_path": "work/wm108_temporal_context_20261004/final_v1/all200_tasks.csv",
+      "published_path": "results/wm108/all200_tasks.csv",
+      "original_sha256": "22bd4714616ecd9f18cf9754906f389298c6247a3af99862f7e28bd13d1729b4",
+      "published_sha256": "22bd4714616ecd9f18cf9754906f389298c6247a3af99862f7e28bd13d1729b4",
+      "transformation": "字节一致"
+    },
+    {
+      "original_relative_path": "work/wm108_temporal_context_20261004/final_v1/all150_paired.csv",
+      "published_path": "results/wm108/all150_paired.csv",
+      "original_sha256": "5807c119eaf08a9e78c6fcd730445f6778632f5035c2abe253d5b29f71063bc1",
+      "published_sha256": "5807c119eaf08a9e78c6fcd730445f6778632f5035c2abe253d5b29f71063bc1",
+      "transformation": "字节一致"
+    },
+    {
+      "original_relative_path": "work/wm108_temporal_context_20261004/final_v1/all50_factorial_contrasts.csv",
+      "published_path": "results/wm108/all50_factorial_contrasts.csv",
+      "original_sha256": "1d7b87300ecf1d88613f2c39bb2d6333f12cf5bf1ebae532037f7be6f2e44002",
+      "published_sha256": "1d7b87300ecf1d88613f2c39bb2d6333f12cf5bf1ebae532037f7be6f2e44002",
+      "transformation": "字节一致"
+    },
+    {
+      "original_relative_path": "work/wm108_temporal_context_20261004/final_v1/all_failed_cases.csv",
+      "published_path": "results/wm108/all_failed_cases.csv",
+      "original_sha256": "2f5bb0546befb5f3c2953e03e2e11a6f5d4ef09b0ac55966aeca5a4140281295",
+      "published_sha256": "2f5bb0546befb5f3c2953e03e2e11a6f5d4ef09b0ac55966aeca5a4140281295",
+      "transformation": "字节一致"
+    },
+    {
+      "original_relative_path": "work/wm108_temporal_context_20261004/final_v1/terminal.json",
+      "published_path": "results/wm108/terminal.json",
+      "original_sha256": "3eb3ed3f872fcf3728b962c0bf691c74571cff3b86bfb8bd2d6efadebeb543d7",
+      "published_sha256": "b91c321a51d39af42118fe997acd3eb163fb5987a3a5646cc71068fb6dabb326",
+      "transformation": "仅路径脱敏"
+    },
+    {
+      "original_relative_path": "outputs/WM108完整对照_20261004/report.txt",
+      "published_path": "results/wm108/report.txt",
+      "original_sha256": "6280d47ac2477be7f51cc46050c016cb5d835914661225d9c428e4de22429110",
+      "published_sha256": "7cb492294d7c4adf28f8704dfd1dad67ef0707c2be3a87846a00d537c86bb899",
+      "transformation": "仅路径脱敏"
+    },
+    {
+      "original_relative_path": "outputs/WM108完整对照_20261004/verification.json",
+      "published_path": "results/wm108/historical_verification.json",
+      "original_sha256": "69916847c814050c8a564c8a886d365d3377e11324fcff79d3cc2a2f7aa9d98b",
+      "published_sha256": "72bcc585b6335d866854e8835c2357320678c4bd407468c217d17e137fd8f20d",
+      "transformation": "仅路径脱敏"
+    },
+    {
+      "original_relative_path": "work/wm114_integrated_adaptation_20261005/controller_v1/final_analysis/summary.json",
+      "published_path": "results/wm114/summary.json",
+      "original_sha256": "c0e11e9328ec648a20d3fa5748d947fd17469f3cb0dc0eb14ab95f8a70bfec1b",
+      "published_sha256": "c0e11e9328ec648a20d3fa5748d947fd17469f3cb0dc0eb14ab95f8a70bfec1b",
+      "transformation": "字节一致"
+    },
+    {
+      "original_relative_path": "work/wm114_integrated_adaptation_20261005/controller_v1/final_analysis/all_cases.csv",
+      "published_path": "results/wm114/all_cases.csv",
+      "original_sha256": "542f529061d8a0afe982e4a0561bb24385ce93e6a297c9523c3435af5a163369",
+      "published_sha256": "189ff777a44602994d1cbaa2deb26f61b37309d9d53aa10de38a36df09dd92dd",
+      "transformation": "仅路径脱敏"
+    },
+    {
+      "original_relative_path": "work/wm114_integrated_adaptation_20261005/controller_v1/final_analysis/paired_vs_B.csv",
+      "published_path": "results/wm114/paired_vs_B.csv",
+      "original_sha256": "1e07bc5e2735574047ac8c7df9a712ee3fc68b0752f4f03d2b795070a2fa8b46",
+      "published_sha256": "1e07bc5e2735574047ac8c7df9a712ee3fc68b0752f4f03d2b795070a2fa8b46",
+      "transformation": "字节一致"
+    },
+    {
+      "original_relative_path": "work/wm114_integrated_adaptation_20261005/controller_v1/final_analysis/report.txt",
+      "published_path": "results/wm114/report.txt",
+      "original_sha256": "fd760f843f3f6b73b920dd61165955686567772d2125eea2a53bf7ad911006e8",
+      "published_sha256": "fd760f843f3f6b73b920dd61165955686567772d2125eea2a53bf7ad911006e8",
+      "transformation": "字节一致"
+    },
+    {
+      "original_relative_path": "work/wm114_integrated_adaptation_20261005/controller_v1/final_analysis/terminal.json",
+      "published_path": "results/wm114/terminal.json",
+      "original_sha256": "0703aa519787cd924d3cf824074b20919dda4d42d400f5d03134f23929b109ec",
+      "published_sha256": "0703aa519787cd924d3cf824074b20919dda4d42d400f5d03134f23929b109ec",
+      "transformation": "字节一致"
+    },
+    {
+      "original_relative_path": "work/wm114_integrated_adaptation_20261005/final_count_review_v1/report.txt",
+      "published_path": "results/wm114/historical_count_review.txt",
+      "original_sha256": "0728cd267db71f51144cc5f1c91ebff65fe140210e967bda81c53b9bd93ea1cb",
+      "published_sha256": "0728cd267db71f51144cc5f1c91ebff65fe140210e967bda81c53b9bd93ea1cb",
+      "transformation": "字节一致"
+    },
+    {
+      "original_relative_path": "work/wm114_integrated_adaptation_20261005/final_count_review_v1/terminal.json",
+      "published_path": "results/wm114/historical_count_review_terminal.json",
+      "original_sha256": "5d09339adc7613ab24c7b49548b0e2ec46226b8b5e24063025d6daa06f94cba1",
+      "published_sha256": "5d09339adc7613ab24c7b49548b0e2ec46226b8b5e24063025d6daa06f94cba1",
+      "transformation": "字节一致"
+    },
+    {
+      "original_relative_path": "work/wm114_integrated_adaptation_20261005/final_count_review_v1/recomputed_arms.csv",
+      "published_path": "results/wm114/historical_recomputed_arms.csv",
+      "original_sha256": "58fbafe31d07e1dea4dedcd1ff41a17a9860d15a534b879a49d20178c9260fcc",
+      "published_sha256": "58fbafe31d07e1dea4dedcd1ff41a17a9860d15a534b879a49d20178c9260fcc",
+      "transformation": "字节一致"
+    }
+  ]
+}
