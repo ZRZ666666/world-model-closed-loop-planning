@@ -1,0 +1,12 @@
+{
+  "status": "complete_all150_temporal_context_descriptions",
+  "summary_sha256": "1d0778e079e4a9833fdc6f6fd0eace755dfd211a884da5baa6eb3ffe8207a3b6",
+  "output_hashes": {
+    "<RESEARCH_ROOT>/work\\wm108_temporal_context_20261004\\final_v1\\all150_paired.csv": "5807c119eaf08a9e78c6fcd730445f6778632f5035c2abe253d5b29f71063bc1",
+    "<RESEARCH_ROOT>/work\\wm108_temporal_context_20261004\\final_v1\\all200_tasks.csv": "22bd4714616ecd9f18cf9754906f389298c6247a3af99862f7e28bd13d1729b4",
+    "<RESEARCH_ROOT>/work\\wm108_temporal_context_20261004\\final_v1\\all50_factorial_contrasts.csv": "1d7b87300ecf1d88613f2c39bb2d6333f12cf5bf1ebae532037f7be6f2e44002",
+    "<RESEARCH_ROOT>/work\\wm108_temporal_context_20261004\\final_v1\\all_failed_cases.csv": "2f5bb0546befb5f3c2953e03e2e11a6f5d4ef09b0ac55966aeca5a4140281295",
+    "<RESEARCH_ROOT>/work\\wm108_temporal_context_20261004\\final_v1\\input_hashes.json": "8cd0e5d8b8cfd787448e4bb54a23864d080414aff9deb031f5d7d87914a3fbb9",
+    "<RESEARCH_ROOT>/work\\wm108_temporal_context_20261004\\final_v1\\summary.json": "1d0778e079e4a9833fdc6f6fd0eace755dfd211a884da5baa6eb3ffe8207a3b6"
+  }
+}

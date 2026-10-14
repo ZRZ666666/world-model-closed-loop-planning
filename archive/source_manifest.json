@@ -1,0 +1,163 @@
+[
+  {
+    "path": "archive/work/wm108_temporal_context_20261004/wm108_contract.py",
+    "original_relative_path": "work/wm108_temporal_context_20261004/wm108_contract.py",
+    "source_sha256": "ad49a8b542337a9eacdd81b24e57bb132c4a6a5e490e45dd2fca678e06b877b3",
+    "public_sha256": "ad49a8b542337a9eacdd81b24e57bb132c4a6a5e490e45dd2fca678e06b877b3",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm108_temporal_context_20261004/run_intervention.py",
+    "original_relative_path": "work/wm108_temporal_context_20261004/run_intervention.py",
+    "source_sha256": "ea6e17053c49a0bbbb1208ccfadf02af663bb9f5cef786d31cb841fdf94f7e2e",
+    "public_sha256": "ea6e17053c49a0bbbb1208ccfadf02af663bb9f5cef786d31cb841fdf94f7e2e",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm108_temporal_context_20261004/controller.py",
+    "original_relative_path": "work/wm108_temporal_context_20261004/controller.py",
+    "source_sha256": "e10e469a891217387edd2ad323f0d3033686efcdee01aa5d19ae6a61100b50f3",
+    "public_sha256": "e10e469a891217387edd2ad323f0d3033686efcdee01aa5d19ae6a61100b50f3",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm108_temporal_context_20261004/audit_case.py",
+    "original_relative_path": "work/wm108_temporal_context_20261004/audit_case.py",
+    "source_sha256": "f290ef3819c12fa4c4f0b88d02e7fc76fb2e7c2909534fa8f0528227e1dcd871",
+    "public_sha256": "f290ef3819c12fa4c4f0b88d02e7fc76fb2e7c2909534fa8f0528227e1dcd871",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm108_temporal_context_20261004/analyze_saved.py",
+    "original_relative_path": "work/wm108_temporal_context_20261004/analyze_saved.py",
+    "source_sha256": "2380b899edcfbfc1ddb1915e1dd7824433cdd06696bc2a0dfe095747287e5022",
+    "public_sha256": "2380b899edcfbfc1ddb1915e1dd7824433cdd06696bc2a0dfe095747287e5022",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm108_temporal_context_20261004/build_protocol.py",
+    "original_relative_path": "work/wm108_temporal_context_20261004/build_protocol.py",
+    "source_sha256": "537895562e8abc3d812e3673da34c36ba18bcc8fa74ca31e9f58e16560be6b4c",
+    "public_sha256": "537895562e8abc3d812e3673da34c36ba18bcc8fa74ca31e9f58e16560be6b4c",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm114_integrated_adaptation_20261005/run_case.py",
+    "original_relative_path": "work/wm114_integrated_adaptation_20261005/run_case.py",
+    "source_sha256": "8827ee446ce9daf924506d583dff1c8e47a0a5eff09e9c76cf94e04e6d063c35",
+    "public_sha256": "8827ee446ce9daf924506d583dff1c8e47a0a5eff09e9c76cf94e04e6d063c35",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm114_integrated_adaptation_20261005/controller.py",
+    "original_relative_path": "work/wm114_integrated_adaptation_20261005/controller.py",
+    "source_sha256": "a9b4eb4d4dbf24fe977ade12b969a0a0f5f2866115dde315c07840b1f7ee32d1",
+    "public_sha256": "a9b4eb4d4dbf24fe977ade12b969a0a0f5f2866115dde315c07840b1f7ee32d1",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm114_integrated_adaptation_20261005/saved_analysis.py",
+    "original_relative_path": "work/wm114_integrated_adaptation_20261005/saved_analysis.py",
+    "source_sha256": "d03d9c1b1035dd7364f3cab35d3e1f1d88920e6d7755dadea7ee96a64585fc11",
+    "public_sha256": "d03d9c1b1035dd7364f3cab35d3e1f1d88920e6d7755dadea7ee96a64585fc11",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm114_integrated_adaptation_20261005/saved_analysis_selfcheck.py",
+    "original_relative_path": "work/wm114_integrated_adaptation_20261005/saved_analysis_selfcheck.py",
+    "source_sha256": "7ba317329c4d9dd167d67cb8a435c14b13b4887aaa9089fba1cb88fa2c9a0679",
+    "public_sha256": "7ba317329c4d9dd167d67cb8a435c14b13b4887aaa9089fba1cb88fa2c9a0679",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm29_20261003/sandwich_core.py",
+    "original_relative_path": "work/wm29_20261003/sandwich_core.py",
+    "source_sha256": "6eb3825e29a35e52408c3726eff392b55424882c9d1b51b92d84786cec70455d",
+    "public_sha256": "6eb3825e29a35e52408c3726eff392b55424882c9d1b51b92d84786cec70455d",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm13_20261002/runner/common.py",
+    "original_relative_path": "work/wm13_20261002/runner/common.py",
+    "source_sha256": "d69d1fc04641572f042c4945e6cec1f9bf306e6d618b9b5f2b7afc7a04567e75",
+    "public_sha256": "d69d1fc04641572f042c4945e6cec1f9bf306e6d618b9b5f2b7afc7a04567e75",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm13_20261002/runner/env_worker.py",
+    "original_relative_path": "work/wm13_20261002/runner/env_worker.py",
+    "source_sha256": "2eca08d1837cdaaaaf9c5ad895fe333fc4c3900a606073416a327445be7e5f51",
+    "public_sha256": "2eca08d1837cdaaaaf9c5ad895fe333fc4c3900a606073416a327445be7e5f51",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm13_20261002/runner/run_temporal_mpc.py",
+    "original_relative_path": "work/wm13_20261002/runner/run_temporal_mpc.py",
+    "source_sha256": "0bc2519d175c0fd26af668258aff044fd57ee55f675031848fa81e0b993aaff6",
+    "public_sha256": "0bc2519d175c0fd26af668258aff044fd57ee55f675031848fa81e0b993aaff6",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm105_native_phase_baseline_20261004/runtime/runtime_common.py",
+    "original_relative_path": "work/wm105_native_phase_baseline_20261004/runtime/runtime_common.py",
+    "source_sha256": "0ecaf8d9e7ef243790483ff9123b670a0ec7adbe6861b7df1fc364c14069d53c",
+    "public_sha256": "0ecaf8d9e7ef243790483ff9123b670a0ec7adbe6861b7df1fc364c14069d53c",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm105_native_phase_baseline_20261004/runtime/task_contract.py",
+    "original_relative_path": "work/wm105_native_phase_baseline_20261004/runtime/task_contract.py",
+    "source_sha256": "e47cf14a3d8adf2decaa5c9b196e2254109d9481be8e6e5572b8e76734cb7759",
+    "public_sha256": "e47cf14a3d8adf2decaa5c9b196e2254109d9481be8e6e5572b8e76734cb7759",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm105_native_phase_baseline_20261004/runtime/local_evaluator.py",
+    "original_relative_path": "work/wm105_native_phase_baseline_20261004/runtime/local_evaluator.py",
+    "source_sha256": "b5f584e88acf0e5453d330df4aca1df7636bd242f40f980b0937b519c9c90cfb",
+    "public_sha256": "b5f584e88acf0e5453d330df4aca1df7636bd242f40f980b0937b519c9c90cfb",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm105_native_phase_baseline_20261004/runtime/env_worker.py",
+    "original_relative_path": "work/wm105_native_phase_baseline_20261004/runtime/env_worker.py",
+    "source_sha256": "6a6abe533573abf2f5cd4f4991d724ea9240eb31b43f5c105b2ebf29ace4f4b6",
+    "public_sha256": "6a6abe533573abf2f5cd4f4991d724ea9240eb31b43f5c105b2ebf29ace4f4b6",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm105_native_phase_baseline_20261004/runtime/run_frozen.py",
+    "original_relative_path": "work/wm105_native_phase_baseline_20261004/runtime/run_frozen.py",
+    "source_sha256": "bcdba3eef045bf43e50fd0b5e3e4d7ccbe6a351bb2dc1daa4de2e9bae5dbf6eb",
+    "public_sha256": "bcdba3eef045bf43e50fd0b5e3e4d7ccbe6a351bb2dc1daa4de2e9bae5dbf6eb",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm105_native_phase_baseline_20261004/runtime/run_candidates.py",
+    "original_relative_path": "work/wm105_native_phase_baseline_20261004/runtime/run_candidates.py",
+    "source_sha256": "bf5c247081996ba62ca6ef86979e65eb933ab18128afe62e9746576ee787e141",
+    "public_sha256": "bf5c247081996ba62ca6ef86979e65eb933ab18128afe62e9746576ee787e141",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm105_native_phase_baseline_20261004/runtime/audit_case.py",
+    "original_relative_path": "work/wm105_native_phase_baseline_20261004/runtime/audit_case.py",
+    "source_sha256": "d9c2e514ff8617bd2c8b2c9a5919da959baa3e3ffc57b6e95d105a890b9ff8b6",
+    "public_sha256": "d9c2e514ff8617bd2c8b2c9a5919da959baa3e3ffc57b6e95d105a890b9ff8b6",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm105_native_phase_baseline_20261004/analysis_saved.py",
+    "original_relative_path": "work/wm105_native_phase_baseline_20261004/analysis_saved.py",
+    "source_sha256": "5f49e648d6c6cf3ed1590db7a16fa8a06273dab91b36e7dfbf54fb5f9237d008",
+    "public_sha256": "5f49e648d6c6cf3ed1590db7a16fa8a06273dab91b36e7dfbf54fb5f9237d008",
+    "private_path_redacted": false
+  },
+  {
+    "path": "archive/work/wm03_20261002/run_native_pusht.py",
+    "original_relative_path": "work/wm03_20261002/run_native_pusht.py",
+    "source_sha256": "26bf2b98213d7307583d99ae95dd82be02b52408cff0c63ef4f2a5a18a8aa45c",
+    "public_sha256": "26bf2b98213d7307583d99ae95dd82be02b52408cff0c63ef4f2a5a18a8aa45c",
+    "private_path_redacted": false
+  }
+]

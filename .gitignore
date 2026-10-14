@@ -1,0 +1,24 @@
+# This repository is an evidence/source archive. Do not add private assets.
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.zarr/
+*.hdf5
+*.h5
+*.zip
+*.7z
+*.log
+private/
+credentials/
+.DS_Store
+Thumbs.db

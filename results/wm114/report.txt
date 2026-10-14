@@ -1,0 +1,43 @@
+WM114 整合适应：保存结果审核
+
+已审核完成 64/64 项；按队列连续完成前缀 64 项。
+四臂共同完成 16/16 个窗口，来自 11 条轨迹。
+下列主表只使用四臂共同完成窗口；全部是已消费开发数据，不能称独立确认。
+
+配置 | 100步成功 | 平均封顶100步交互 | 25步成功 | 平均封顶25步交互
+B | 14/16 | 35.625 | 13/16 | 25.000
+BR | 14/16 | 34.062 | 14/16 | 24.688
+BG | 14/16 | 34.688 | 13/16 | 25.000
+BRG | 14/16 | 35.625 | 12/16 | 25.000
+
+与B逐窗口配对（负交互差值表示少用动作）
+BR: 100步恢复[]；新增失败[]；平均交互差值-1.562；更快/相同/更慢=2/14/0。
+    25步恢复[1]；新增失败[]。
+BG: 100步恢复[]；新增失败[]；平均交互差值-0.938；更快/相同/更慢=1/15/0。
+    25步恢复[]；新增失败[]。
+BRG: 100步恢复[]；新增失败[]；平均交互差值0.000；更快/相同/更慢=1/14/1。
+    25步恢复[]；新增失败[13]。
+
+同一批配对窗口的计算成本（独立核算，不能把交互节省称为计算节省）
+B: 模型残差更新0；重规划114；复用0；平均墙钟134.695秒。
+    规划/训练/监测累计秒=1880.110/0.000/18.736
+    调用计数={"action_backward_calls": 11400, "model_loads": 16, "monitor_actual_encode_calls": 114, "monitor_actual_encoded_frames": 114, "monitor_plan_action_encode_calls": 570, "monitor_plan_action_tokens": 750, "monitor_plan_context_frames": 1646, "monitor_plan_encode_calls": 114, "monitor_plan_encoded_frames": 294, "monitor_plan_predict_calls": 570, "physical_actions": 570, "planning_action_encode_calls": 57000, "planning_action_tokens": 75000, "planning_context_frames": 164600, "planning_encode_calls": 11514, "planning_encoded_frames": 29514, "planning_predict_calls": 57000, "prequential_actual_encode_calls": 114, "prequential_actual_encoded_frames": 114, "prequential_prediction_action_encode_calls": 114, "prequential_prediction_action_tokens": 294, "prequential_prediction_context_frames": 294, "prequential_prediction_encode_calls": 114, "prequential_prediction_encoded_frames": 294, "prequential_prediction_predict_calls": 114}
+BR: 模型残差更新93；重规划109；复用0；平均墙钟141.650秒。
+    规划/训练/监测累计秒=1978.396/28.533/18.137
+    调用计数={"action_backward_calls": 10900, "model_loads": 16, "monitor_actual_encode_calls": 109, "monitor_actual_encoded_frames": 109, "monitor_plan_action_encode_calls": 545, "monitor_plan_action_tokens": 715, "monitor_plan_context_frames": 1571, "monitor_plan_encode_calls": 109, "monitor_plan_encoded_frames": 279, "monitor_plan_predict_calls": 545, "physical_actions": 545, "planning_action_encode_calls": 54500, "planning_action_tokens": 71500, "planning_context_frames": 157100, "planning_encode_calls": 11009, "planning_encoded_frames": 28009, "planning_predict_calls": 54500, "prequential_actual_encode_calls": 109, "prequential_actual_encoded_frames": 109, "prequential_prediction_action_encode_calls": 109, "prequential_prediction_action_tokens": 279, "prequential_prediction_context_frames": 279, "prequential_prediction_encode_calls": 109, "prequential_prediction_encoded_frames": 279, "prequential_prediction_predict_calls": 109, "residual_optimizer_steps": 93, "residual_training_backward_calls": 655, "training_action_encode_calls": 93, "training_action_tokens": 399, "training_context_frames": 1140, "training_encode_calls": 93, "training_encoded_frames": 399, "training_predict_calls": 655}
+BG: 模型残差更新0；重规划51；复用60；平均墙钟67.918秒。
+    规划/训练/监测累计秒=836.660/0.000/14.754
+    调用计数={"action_backward_calls": 5100, "model_loads": 16, "monitor_actual_encode_calls": 111, "monitor_actual_encoded_frames": 111, "monitor_plan_action_encode_calls": 255, "monitor_plan_action_tokens": 323, "monitor_plan_context_frames": 715, "monitor_plan_encode_calls": 51, "monitor_plan_encoded_frames": 119, "monitor_plan_predict_calls": 255, "physical_actions": 555, "planning_action_encode_calls": 25500, "planning_action_tokens": 32300, "planning_context_frames": 71500, "planning_encode_calls": 5151, "planning_encoded_frames": 11951, "planning_predict_calls": 25500, "prequential_actual_encode_calls": 111, "prequential_actual_encoded_frames": 111, "prequential_prediction_action_encode_calls": 111, "prequential_prediction_action_tokens": 285, "prequential_prediction_context_frames": 285, "prequential_prediction_encode_calls": 111, "prequential_prediction_encoded_frames": 285, "prequential_prediction_predict_calls": 111}
+BRG: 模型残差更新98；重规划54；复用60；平均墙钟79.404秒。
+    规划/训练/监测累计秒=985.195/30.704/15.169
+    调用计数={"action_backward_calls": 5400, "model_loads": 16, "monitor_actual_encode_calls": 114, "monitor_actual_encoded_frames": 114, "monitor_plan_action_encode_calls": 270, "monitor_plan_action_tokens": 344, "monitor_plan_context_frames": 760, "monitor_plan_encode_calls": 54, "monitor_plan_encoded_frames": 128, "monitor_plan_predict_calls": 270, "physical_actions": 570, "planning_action_encode_calls": 27000, "planning_action_tokens": 34400, "planning_context_frames": 76000, "planning_encode_calls": 5454, "planning_encoded_frames": 12854, "planning_predict_calls": 27000, "prequential_actual_encode_calls": 114, "prequential_actual_encoded_frames": 114, "prequential_prediction_action_encode_calls": 114, "prequential_prediction_action_tokens": 294, "prequential_prediction_context_frames": 294, "prequential_prediction_encode_calls": 114, "prequential_prediction_encoded_frames": 294, "prequential_prediction_predict_calls": 114, "residual_optimizer_steps": 98, "residual_training_backward_calls": 712, "training_action_encode_calls": 98, "training_action_tokens": 428, "training_context_frames": 1244, "training_encode_calls": 98, "training_encoded_frames": 428, "training_predict_calls": 712}
+
+组合交互项BRG−BR−BG+B：平均封顶交互=2.500。这是描述，不能单独证明协同机制。
+
+未完成/未封存记录：
+无。
+
+边界：每5原始动作检查；失败记100；25步为次指标。保留全部恢复和新增失败。
+轨迹等权描述、逐项预算及全部已完成case（可能不配对）见summary.json。
+输入哈希证明所读保存文件一致，未重新运行模型或物理环境。部分/失败case预算尚未纳入完整case预算。
+本分析模型调用0、物理动作0；不作原创、SOTA、独立确认或录用结论。

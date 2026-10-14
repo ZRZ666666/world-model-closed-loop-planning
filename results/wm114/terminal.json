@@ -1,0 +1,9 @@
+{
+  "status": "complete_saved_analysis",
+  "queue_status": "complete_all_cases",
+  "summary_sha256": "c0e11e9328ec648a20d3fa5748d947fd17469f3cb0dc0eb14ab95f8a70bfec1b",
+  "report_sha256": "fd760f843f3f6b73b920dd61165955686567772d2125eea2a53bf7ad911006e8",
+  "manifest_sha256": "d2ea9b3e0b13a3db8aef245da8e941f91bbfd9b87d1656bc09ad5161e76290bb",
+  "all_cases_sha256": "542f529061d8a0afe982e4a0561bb24385ce93e6a297c9523c3435af5a163369",
+  "paired_vs_B_sha256": "1e07bc5e2735574047ac8c7df9a712ee3fc68b0752f4f03d2b795070a2fa8b46"
+}

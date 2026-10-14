@@ -1,0 +1,175 @@
+{
+  "status": "verified_saved_results_only",
+  "created_at_utc": "2026-10-04T13:13:59.950006+00:00",
+  "controller_sha256": "15a85ea8e4ef1579cda99809bbd1c810413cab9e80dd6ecb54a7166f7cc33d77",
+  "dependency_sha256": "2a82b6592c4ee40c4135ef18f8e180e0843c4726d7d0c998d0d8186dabb91786",
+  "final_terminal_sha256": "3eb3ed3f872fcf3728b962c0bf691c74571cff3b86bfb8bd2d6efadebeb543d7",
+  "summary_sha256": "1d0778e079e4a9833fdc6f6fd0eace755dfd211a884da5baa6eb3ffe8207a3b6",
+  "protocol_sha256": "fff22cfc89b23d7cc9eb0be7a23f50a0679139f5fb30a3d827d7cdffeb1ac91e",
+  "all_final_output_hashes_verified": {
+    "<RESEARCH_ROOT>/work\\wm108_temporal_context_20261004\\final_v1\\all150_paired.csv": "5807c119eaf08a9e78c6fcd730445f6778632f5035c2abe253d5b29f71063bc1",
+    "<RESEARCH_ROOT>/work\\wm108_temporal_context_20261004\\final_v1\\all200_tasks.csv": "22bd4714616ecd9f18cf9754906f389298c6247a3af99862f7e28bd13d1729b4",
+    "<RESEARCH_ROOT>/work\\wm108_temporal_context_20261004\\final_v1\\all50_factorial_contrasts.csv": "1d7b87300ecf1d88613f2c39bb2d6333f12cf5bf1ebae532037f7be6f2e44002",
+    "<RESEARCH_ROOT>/work\\wm108_temporal_context_20261004\\final_v1\\all_failed_cases.csv": "2f5bb0546befb5f3c2953e03e2e11a6f5d4ef09b0ac55966aeca5a4140281295",
+    "<RESEARCH_ROOT>/work\\wm108_temporal_context_20261004\\final_v1\\input_hashes.json": "8cd0e5d8b8cfd787448e4bb54a23864d080414aff9deb031f5d7d87914a3fbb9",
+    "<RESEARCH_ROOT>/work\\wm108_temporal_context_20261004\\final_v1\\summary.json": "1d0778e079e4a9833fdc6f6fd0eace755dfd211a884da5baa6eb3ffe8207a3b6"
+  },
+  "input_pins_verified": 1755,
+  "controller_case_links_verified": 600,
+  "rows": 200,
+  "paired_rows": 150,
+  "unique_trajectories": 20,
+  "recomputed": {
+    "native_frozen": {
+      "draws": 50,
+      "successes_by100": 44,
+      "successes_by25": 16,
+      "mean_capped100_cost": 38.7,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 1935,
+      "resets": 50,
+      "failed_draws": [
+        11,
+        12,
+        23,
+        36,
+        43,
+        48
+      ]
+    },
+    "deadline": {
+      "draws": 50,
+      "successes_by100": 45,
+      "successes_by25": 43,
+      "mean_capped100_cost": 33.4,
+      "mean_capped25_cost": 24.9,
+      "physical_actions": 1670,
+      "resets": 50,
+      "failed_draws": [
+        11,
+        12,
+        23,
+        36,
+        48
+      ]
+    },
+    "history3": {
+      "draws": 50,
+      "successes_by100": 46,
+      "successes_by25": 16,
+      "mean_capped100_cost": 36.2,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 1810,
+      "resets": 50,
+      "failed_draws": [
+        11,
+        12,
+        23,
+        36
+      ]
+    },
+    "history3_deadline": {
+      "draws": 50,
+      "successes_by100": 46,
+      "successes_by25": 43,
+      "mean_capped100_cost": 31.7,
+      "mean_capped25_cost": 24.8,
+      "physical_actions": 1585,
+      "resets": 50,
+      "failed_draws": [
+        11,
+        12,
+        23,
+        36
+      ]
+    }
+  },
+  "trajectory_equal_descriptions": {
+    "native_frozen": {
+      "success100": 0.9083333333333332,
+      "success25": 0.3833333333333333,
+      "capped100": 36.270833333333336
+    },
+    "deadline": {
+      "success100": 0.9208333333333332,
+      "success25": 0.8958333333333333,
+      "capped100": 31.5
+    },
+    "history3": {
+      "success100": 0.9375,
+      "success25": 0.3583333333333333,
+      "capped100": 34.25
+    },
+    "history3_deadline": {
+      "success100": 0.9375,
+      "success25": 0.8958333333333333,
+      "capped100": 30.083333333333336
+    }
+  },
+  "slower_draws": {
+    "native_frozen": [],
+    "deadline": [
+      {
+        "draw": 1,
+        "trajectory": 14,
+        "native": 35,
+        "new": 50
+      },
+      {
+        "draw": 25,
+        "trajectory": 14,
+        "native": 35,
+        "new": 50
+      }
+    ],
+    "history3": [
+      {
+        "draw": 1,
+        "trajectory": 14,
+        "native": 35,
+        "new": 40
+      },
+      {
+        "draw": 7,
+        "trajectory": 1,
+        "native": 30,
+        "new": 35
+      },
+      {
+        "draw": 28,
+        "trajectory": 1,
+        "native": 45,
+        "new": 55
+      },
+      {
+        "draw": 33,
+        "trajectory": 16,
+        "native": 25,
+        "new": 30
+      },
+      {
+        "draw": 41,
+        "trajectory": 15,
+        "native": 25,
+        "new": 30
+      }
+    ],
+    "history3_deadline": [
+      {
+        "draw": 1,
+        "trajectory": 14,
+        "native": 35,
+        "new": 45
+      },
+      {
+        "draw": 25,
+        "trajectory": 14,
+        "native": 35,
+        "new": 45
+      }
+    ]
+  },
+  "new_model_calls": 0,
+  "new_physical_actions": 0,
+  "report_script_sha256": "9875c06d5c75f1dbbf0b597723d93f36254050802e77883ef555684fa64f13c9"
+}

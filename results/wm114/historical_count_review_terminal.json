@@ -1,0 +1,7 @@
+{
+  "status": "complete_mechanical_count_review",
+  "review_sha256": "8be2a7a77fe8c46606e126de6f6e74228c881b16d14a378cabdd0ff26bd4b240",
+  "report_sha256": "0728cd267db71f51144cc5f1c91ebff65fe140210e967bda81c53b9bd93ea1cb",
+  "input_hashes_sha256": "65f925b3d13726a1845b9a04a4dace1f6eaa861dd88f46b8d17528775bb8d490",
+  "recomputed_arms_sha256": "58fbafe31d07e1dea4dedcd1ff41a17a9860d15a534b879a49d20178c9260fcc"
+}

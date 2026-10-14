@@ -1,0 +1,2725 @@
+{
+  "status": "complete_all150_temporal_context_descriptions",
+  "draws": 50,
+  "new_cases": 150,
+  "reused_native_cases": 50,
+  "arms": {
+    "native_frozen": {
+      "draws": 50,
+      "successes_by100": 44,
+      "successes_by25": 16,
+      "mean_capped100_cost": 38.7,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 1935,
+      "resets": 50,
+      "S100": 0,
+      "F100": 6,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        11,
+        12,
+        23,
+        36,
+        43,
+        48
+      ]
+    },
+    "deadline": {
+      "draws": 50,
+      "successes_by100": 45,
+      "successes_by25": 43,
+      "mean_capped100_cost": 33.4,
+      "mean_capped25_cost": 24.9,
+      "physical_actions": 1670,
+      "resets": 50,
+      "S100": 0,
+      "F100": 5,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        11,
+        12,
+        23,
+        36,
+        48
+      ]
+    },
+    "history3": {
+      "draws": 50,
+      "successes_by100": 46,
+      "successes_by25": 16,
+      "mean_capped100_cost": 36.2,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 1810,
+      "resets": 50,
+      "S100": 0,
+      "F100": 4,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        11,
+        12,
+        23,
+        36
+      ]
+    },
+    "history3_deadline": {
+      "draws": 50,
+      "successes_by100": 46,
+      "successes_by25": 43,
+      "mean_capped100_cost": 31.7,
+      "mean_capped25_cost": 24.8,
+      "physical_actions": 1585,
+      "resets": 50,
+      "S100": 0,
+      "F100": 4,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        11,
+        12,
+        23,
+        36
+      ]
+    }
+  },
+  "paired_vs_native": {
+    "deadline": {
+      "by100": {
+        "paired_table": {
+          "new_0_native_0": 5,
+          "new_0_native_1": 0,
+          "new_1_native_0": 1,
+          "new_1_native_1": 44
+        },
+        "mean_new_minus_native_cost": -5.3,
+        "new_lower_cost": 27,
+        "equal_cost": 21,
+        "new_higher_cost": 2,
+        "recovered_draws": [
+          43
+        ],
+        "lost_success_draws": []
+      },
+      "by25": {
+        "paired_table": {
+          "new_0_native_0": 7,
+          "new_0_native_1": 0,
+          "new_1_native_0": 27,
+          "new_1_native_1": 16
+        },
+        "mean_new_minus_native_cost": -0.1,
+        "new_lower_cost": 1,
+        "equal_cost": 49,
+        "new_higher_cost": 0,
+        "recovered_draws": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          14,
+          15,
+          17,
+          18,
+          19,
+          21,
+          26,
+          28,
+          29,
+          30,
+          34,
+          35,
+          37,
+          38,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "lost_success_draws": []
+      }
+    },
+    "history3": {
+      "by100": {
+        "paired_table": {
+          "new_0_native_0": 4,
+          "new_0_native_1": 0,
+          "new_1_native_0": 2,
+          "new_1_native_1": 44
+        },
+        "mean_new_minus_native_cost": -2.5,
+        "new_lower_cost": 6,
+        "equal_cost": 39,
+        "new_higher_cost": 5,
+        "recovered_draws": [
+          43,
+          48
+        ],
+        "lost_success_draws": []
+      },
+      "by25": {
+        "paired_table": {
+          "new_0_native_0": 32,
+          "new_0_native_1": 2,
+          "new_1_native_0": 2,
+          "new_1_native_1": 14
+        },
+        "mean_new_minus_native_cost": 0.0,
+        "new_lower_cost": 0,
+        "equal_cost": 50,
+        "new_higher_cost": 0,
+        "recovered_draws": [
+          19,
+          42
+        ],
+        "lost_success_draws": [
+          33,
+          41
+        ]
+      }
+    },
+    "history3_deadline": {
+      "by100": {
+        "paired_table": {
+          "new_0_native_0": 4,
+          "new_0_native_1": 0,
+          "new_1_native_0": 2,
+          "new_1_native_1": 44
+        },
+        "mean_new_minus_native_cost": -7.0,
+        "new_lower_cost": 28,
+        "equal_cost": 20,
+        "new_higher_cost": 2,
+        "recovered_draws": [
+          43,
+          48
+        ],
+        "lost_success_draws": []
+      },
+      "by25": {
+        "paired_table": {
+          "new_0_native_0": 7,
+          "new_0_native_1": 0,
+          "new_1_native_0": 27,
+          "new_1_native_1": 16
+        },
+        "mean_new_minus_native_cost": -0.2,
+        "new_lower_cost": 2,
+        "equal_cost": 48,
+        "new_higher_cost": 0,
+        "recovered_draws": [
+          0,
+          2,
+          3,
+          5,
+          7,
+          8,
+          14,
+          15,
+          17,
+          18,
+          19,
+          21,
+          26,
+          28,
+          29,
+          30,
+          34,
+          35,
+          37,
+          38,
+          39,
+          40,
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "lost_success_draws": []
+      }
+    }
+  },
+  "trajectory_dependencies": {
+    "4": [
+      {
+        "draw_index": 0,
+        "offset": 58,
+        "initial_group_id": "pose5_1e06ea4852ff73a6e964de48b0e3ae5d25018103a4f78629e7a7a7039d14c4cc"
+      },
+      {
+        "draw_index": 12,
+        "offset": 24,
+        "initial_group_id": "pose5_dac84538e7bd7d4801335f215b005a86e41e1af394615ab750b9439421298606"
+      },
+      {
+        "draw_index": 21,
+        "offset": 99,
+        "initial_group_id": "pose5_7e5c688ba4a73503f250d31850e2d8e4899f5c83782fbb91e83e3aeef32b3b15"
+      },
+      {
+        "draw_index": 26,
+        "offset": 79,
+        "initial_group_id": "pose5_4af6be04583eb189cbce57621ee485a9706bb8d87f1264ea476332d8442c3821"
+      }
+    ],
+    "14": [
+      {
+        "draw_index": 1,
+        "offset": 44,
+        "initial_group_id": "pose5_8c4f6d3d04ae087b39d131420017e6dc98345c44358b44c3b722ff9e016935cd"
+      },
+      {
+        "draw_index": 6,
+        "offset": 67,
+        "initial_group_id": "pose5_86b85b7c20b533feeb37f360f4269973bb34798df32a3cdd86354bb41ce03dd4"
+      },
+      {
+        "draw_index": 16,
+        "offset": 70,
+        "initial_group_id": "pose5_67ee123c1fde74c58c8fb2e331d37ae0ecfecc42a4970265131be8292dc2ead8"
+      },
+      {
+        "draw_index": 25,
+        "offset": 99,
+        "initial_group_id": "pose5_d213faf6bcea3c4c50db19e44ab60433efc875c9e7ebc67ef8ff633ef435dbd1"
+      }
+    ],
+    "12": [
+      {
+        "draw_index": 2,
+        "offset": 89,
+        "initial_group_id": "pose5_93cec380b35db9569a8e4e04aeede35d69faff72f32f68324f3e49eb9e08b15f"
+      },
+      {
+        "draw_index": 17,
+        "offset": 41,
+        "initial_group_id": "pose5_9cb2e9e9f27b6c5e0bdf29ae86a5309b02b016d7e8dd64d3aa698b8db5f6967d"
+      },
+      {
+        "draw_index": 36,
+        "offset": 15,
+        "initial_group_id": "pose5_8bb00d64c141650d09e5c77a64a81d786dfe73a4c1b38e8c6339501152b05787"
+      }
+    ],
+    "13": [
+      {
+        "draw_index": 3,
+        "offset": 64,
+        "initial_group_id": "pose5_457e51d718355d9b0c036c2b4536ba2ec8c9c1e129328d4838458c7c0aec9848"
+      },
+      {
+        "draw_index": 40,
+        "offset": 65,
+        "initial_group_id": "pose5_494aff7040179676dfe09ff6cb2ebb9671a2bd1f4695c4c5713c5c42cd2fe339"
+      }
+    ],
+    "3": [
+      {
+        "draw_index": 4,
+        "offset": 68,
+        "initial_group_id": "pose5_972fb4b9cc64fc8f61fe63dd8d590eb43e890b6641edfd0962aecb72d1bdc50a"
+      },
+      {
+        "draw_index": 5,
+        "offset": 10,
+        "initial_group_id": "pose5_8021540698a71d01ad6809229dd918c6fe911ccd37a19e86d1530062bced4b64"
+      },
+      {
+        "draw_index": 37,
+        "offset": 38,
+        "initial_group_id": "pose5_68c02c57459f027c918fdc3dc24f4f61d77151249b3a53a0bf4f969cde892e73"
+      },
+      {
+        "draw_index": 46,
+        "offset": 6,
+        "initial_group_id": "pose5_9dcd8259a5303677604c14da996cd1a89bdc7e61516cdc52a89d94f057286c35"
+      }
+    ],
+    "1": [
+      {
+        "draw_index": 7,
+        "offset": 84,
+        "initial_group_id": "pose5_3bb536b7d1b6ab6e56bd7f3df2b46aedd89f1c011b1728abe73f323a44761ab7"
+      },
+      {
+        "draw_index": 28,
+        "offset": 77,
+        "initial_group_id": "pose5_e9849c636270523105ca7a6b408a8d9cc35aede63e217177b0f7cdc53d271516"
+      },
+      {
+        "draw_index": 43,
+        "offset": 74,
+        "initial_group_id": "pose5_92f42ba7c3eb907d9a23049f44ff4dee9fea95e6253809109535eaf38dffaf68"
+      },
+      {
+        "draw_index": 45,
+        "offset": 35,
+        "initial_group_id": "pose5_98a5d1aca288efdcdbca88eee91721091b743d9c8fcde55dd3efbf3aa81f23b3"
+      }
+    ],
+    "20": [
+      {
+        "draw_index": 8,
+        "offset": 52,
+        "initial_group_id": "pose5_bd44fcaf51d2a622d7b8d3b77566db0033f4ae607bc78bd813023a2b61a06e20"
+      },
+      {
+        "draw_index": 14,
+        "offset": 104,
+        "initial_group_id": "pose5_6ca06f21db3de51299f55d6868f997a6c6f5c0a5bcffcc06280f221db146595f"
+      },
+      {
+        "draw_index": 18,
+        "offset": 31,
+        "initial_group_id": "pose5_552efbed4e0d7f71a29bad7e6afe713a598a4cd8ce2143883b7127e8e9ec28d9"
+      },
+      {
+        "draw_index": 38,
+        "offset": 111,
+        "initial_group_id": "pose5_2fcaab527dcf65788e69eddc7d71447c1d8e31e3b2d55cd20376954950e241c7"
+      }
+    ],
+    "10": [
+      {
+        "draw_index": 9,
+        "offset": 14,
+        "initial_group_id": "pose5_1a2cb64caa8adf83508753b2306aec70877b28f2f7350393991a3e07126eef37"
+      },
+      {
+        "draw_index": 44,
+        "offset": 10,
+        "initial_group_id": "pose5_afc55d3d4bc54595dc01a66190b2b255571435d80c4db4bd1fcc5445decd5c6d"
+      }
+    ],
+    "9": [
+      {
+        "draw_index": 10,
+        "offset": 98,
+        "initial_group_id": "pose5_35ad1b7665d026887143e291f2b24312b8aa53d5450fd2c66ccdbea66cf5103e"
+      },
+      {
+        "draw_index": 31,
+        "offset": 88,
+        "initial_group_id": "pose5_42908ae887d76ef9aba98538fe0c19914ed0a1cf61543f1b143b1a282d55933f"
+      },
+      {
+        "draw_index": 48,
+        "offset": 67,
+        "initial_group_id": "pose5_704675fdbd0d5c1be8bbf700fe8e39049f4800d1a363fd85989cf21a51f26871"
+      }
+    ],
+    "6": [
+      {
+        "draw_index": 11,
+        "offset": 11,
+        "initial_group_id": "pose5_417c1eb240d70361be061ebe82cec1dad4af2fb853f924de27ee7a2db48322e3"
+      },
+      {
+        "draw_index": 15,
+        "offset": 25,
+        "initial_group_id": "pose5_e34c7127aacaefb7683ac0a1af8e2f4cf5133d5812d5919ad28a554aff265e6c"
+      },
+      {
+        "draw_index": 23,
+        "offset": 10,
+        "initial_group_id": "pose5_b110acb01b53fcf8ded381e6ec20c2195153c7c93fb0f6803a376ae32f5a32b8"
+      }
+    ],
+    "11": [
+      {
+        "draw_index": 13,
+        "offset": 47,
+        "initial_group_id": "pose5_f15eaa8619ba263d479ba855429a5a2425a3f0998fe715fd4fe72ec5b46a910f"
+      },
+      {
+        "draw_index": 35,
+        "offset": 61,
+        "initial_group_id": "pose5_2e773a143c5cfb4f88ee8663fc4d4a142129942e72ef488659ed95dee178bb17"
+      }
+    ],
+    "5": [
+      {
+        "draw_index": 19,
+        "offset": 0,
+        "initial_group_id": "pose5_65ad79d5f0a1d02b102f9dae10f838a5962f89b531eec3c132c85c7860a1e680"
+      }
+    ],
+    "19": [
+      {
+        "draw_index": 20,
+        "offset": 50,
+        "initial_group_id": "pose5_f81a05d8d19b3aab1d8e1ebaa6cb26f888c8ede8fd86b2db0908c894137878de"
+      },
+      {
+        "draw_index": 30,
+        "offset": 64,
+        "initial_group_id": "pose5_ce9dfa0b7e717081893b537e1fac5e2e22f19e602a633011eafaa4264a7fafae"
+      },
+      {
+        "draw_index": 47,
+        "offset": 28,
+        "initial_group_id": "pose5_d818d52dc4ed0e62062c2b7dc1bbd9247562e0c04c853741851be5c1d33e1412"
+      },
+      {
+        "draw_index": 49,
+        "offset": 27,
+        "initial_group_id": "pose5_0cc84c9ef6d26b29e9862eb4906c9efd664536e1a5c6e5326755146378135c67"
+      }
+    ],
+    "18": [
+      {
+        "draw_index": 22,
+        "offset": 20,
+        "initial_group_id": "pose5_fbfeb89d82c495cdca550c6674b529d7c24a02f7b66efef47abe92d84f1ed7bd"
+      },
+      {
+        "draw_index": 32,
+        "offset": 43,
+        "initial_group_id": "pose5_c4b6cb8ff18711846c89d66515688b025765ac84e2f522d4881cc805f5aa77cf"
+      }
+    ],
+    "0": [
+      {
+        "draw_index": 24,
+        "offset": 30,
+        "initial_group_id": "pose5_193d2f1a1af8169086b473142b69b3acac5919d756e05578cd008f6c6f046b25"
+      }
+    ],
+    "17": [
+      {
+        "draw_index": 27,
+        "offset": 48,
+        "initial_group_id": "pose5_81b9760b9b4bd3580b33ab923a03274d0f727f0f09710722d0a8f379c4b5a68e"
+      },
+      {
+        "draw_index": 34,
+        "offset": 54,
+        "initial_group_id": "pose5_64637098457ebd906c3acbaeec268f19e74f04acf741a792aae00796ce546496"
+      }
+    ],
+    "7": [
+      {
+        "draw_index": 29,
+        "offset": 91,
+        "initial_group_id": "pose5_421e4768f0ba1c1b2b125c83e6daf3d4983836ba34bc1ef0336b58d4f822f521"
+      }
+    ],
+    "16": [
+      {
+        "draw_index": 33,
+        "offset": 43,
+        "initial_group_id": "pose5_7482143795e670e116b8a459bb698d608df29300895c5c7a51020a9a6227221c"
+      }
+    ],
+    "8": [
+      {
+        "draw_index": 39,
+        "offset": 30,
+        "initial_group_id": "pose5_529cc0b711e4990d34975de20867ab55204d5b854203b7e79cd8501eafd632ca"
+      },
+      {
+        "draw_index": 42,
+        "offset": 18,
+        "initial_group_id": "pose5_766cf20098a4547fd32b1ebb86ddc648a745cc406ee6da56174c5f234006fce4"
+      }
+    ],
+    "15": [
+      {
+        "draw_index": 41,
+        "offset": 74,
+        "initial_group_id": "pose5_a29dd43d4befe526515f38e0ec7fef04df8bca1942afc6c3c83e9604a9fad5c3"
+      }
+    ]
+  },
+  "unique_trajectories": 20,
+  "trajectory_descriptions": [
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 0,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 1,
+      "draws": 4,
+      "successes_by100": 3,
+      "successes_by25": 0,
+      "mean_capped100_cost": 52.5,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 210,
+      "resets": 4,
+      "S100": 0,
+      "F100": 1,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        43
+      ]
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 3,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 1,
+      "mean_capped100_cost": 33.75,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 135,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 4,
+      "draws": 4,
+      "successes_by100": 3,
+      "successes_by25": 0,
+      "mean_capped100_cost": 50.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 200,
+      "resets": 4,
+      "S100": 0,
+      "F100": 1,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        12
+      ]
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 5,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 0,
+      "mean_capped100_cost": 35.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 35,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 6,
+      "draws": 3,
+      "successes_by100": 1,
+      "successes_by25": 0,
+      "mean_capped100_cost": 78.33333333333333,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 235,
+      "resets": 3,
+      "S100": 0,
+      "F100": 2,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        11,
+        23
+      ]
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 7,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 0,
+      "mean_capped100_cost": 35.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 35,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 8,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 0,
+      "mean_capped100_cost": 30.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 60,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 9,
+      "draws": 3,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 50.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 150,
+      "resets": 3,
+      "S100": 0,
+      "F100": 1,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        48
+      ]
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 10,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 1,
+      "mean_capped100_cost": 30.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 60,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 11,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 1,
+      "mean_capped100_cost": 30.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 60,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 12,
+      "draws": 3,
+      "successes_by100": 2,
+      "successes_by25": 0,
+      "mean_capped100_cost": 53.333333333333336,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 160,
+      "resets": 3,
+      "S100": 0,
+      "F100": 1,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        36
+      ]
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 13,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 0,
+      "mean_capped100_cost": 30.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 60,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 14,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 2,
+      "mean_capped100_cost": 30.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 120,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 15,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 16,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 17,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 1,
+      "mean_capped100_cost": 30.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 60,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 18,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 19,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 3,
+      "mean_capped100_cost": 26.25,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 105,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "native_frozen",
+      "trajectory_id": 20,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 0,
+      "mean_capped100_cost": 31.25,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 125,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 0,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 1,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 4,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 100,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 3,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 4,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 100,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 4,
+      "draws": 4,
+      "successes_by100": 3,
+      "successes_by25": 3,
+      "mean_capped100_cost": 42.5,
+      "mean_capped25_cost": 23.75,
+      "physical_actions": 170,
+      "resets": 4,
+      "S100": 0,
+      "F100": 1,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        12
+      ]
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 5,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 6,
+      "draws": 3,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 75.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 225,
+      "resets": 3,
+      "S100": 0,
+      "F100": 2,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        11,
+        23
+      ]
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 7,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 8,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 9,
+      "draws": 3,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 50.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 150,
+      "resets": 3,
+      "S100": 0,
+      "F100": 1,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        48
+      ]
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 10,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 11,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 12,
+      "draws": 3,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 50.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 150,
+      "resets": 3,
+      "S100": 0,
+      "F100": 1,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        36
+      ]
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 13,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 14,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 2,
+      "mean_capped100_cost": 37.5,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 150,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 15,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 16,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 17,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 18,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 19,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 4,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 100,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "deadline",
+      "trajectory_id": 20,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 4,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 100,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 0,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 1,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 0,
+      "mean_capped100_cost": 40.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 160,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 3,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 1,
+      "mean_capped100_cost": 33.75,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 135,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 4,
+      "draws": 4,
+      "successes_by100": 3,
+      "successes_by25": 0,
+      "mean_capped100_cost": 50.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 200,
+      "resets": 4,
+      "S100": 0,
+      "F100": 1,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        12
+      ]
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 5,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 6,
+      "draws": 3,
+      "successes_by100": 1,
+      "successes_by25": 0,
+      "mean_capped100_cost": 78.33333333333333,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 235,
+      "resets": 3,
+      "S100": 0,
+      "F100": 2,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        11,
+        23
+      ]
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 7,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 0,
+      "mean_capped100_cost": 35.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 35,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 8,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 1,
+      "mean_capped100_cost": 27.5,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 55,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 9,
+      "draws": 3,
+      "successes_by100": 3,
+      "successes_by25": 2,
+      "mean_capped100_cost": 28.333333333333332,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 85,
+      "resets": 3,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 10,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 1,
+      "mean_capped100_cost": 27.5,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 55,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 11,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 1,
+      "mean_capped100_cost": 30.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 60,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 12,
+      "draws": 3,
+      "successes_by100": 2,
+      "successes_by25": 0,
+      "mean_capped100_cost": 53.333333333333336,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 160,
+      "resets": 3,
+      "S100": 0,
+      "F100": 1,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        36
+      ]
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 13,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 0,
+      "mean_capped100_cost": 30.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 60,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 14,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 2,
+      "mean_capped100_cost": 31.25,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 125,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 15,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 0,
+      "mean_capped100_cost": 30.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 30,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 16,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 0,
+      "mean_capped100_cost": 30.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 30,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 17,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 1,
+      "mean_capped100_cost": 27.5,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 55,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 18,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 19,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 3,
+      "mean_capped100_cost": 26.25,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 105,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3",
+      "trajectory_id": 20,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 0,
+      "mean_capped100_cost": 31.25,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 125,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 0,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 1,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 4,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 100,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 3,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 4,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 100,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 4,
+      "draws": 4,
+      "successes_by100": 3,
+      "successes_by25": 3,
+      "mean_capped100_cost": 42.5,
+      "mean_capped25_cost": 23.75,
+      "physical_actions": 170,
+      "resets": 4,
+      "S100": 0,
+      "F100": 1,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        12
+      ]
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 5,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 6,
+      "draws": 3,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 75.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 225,
+      "resets": 3,
+      "S100": 0,
+      "F100": 2,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        11,
+        23
+      ]
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 7,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 8,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 9,
+      "draws": 3,
+      "successes_by100": 3,
+      "successes_by25": 2,
+      "mean_capped100_cost": 26.666666666666668,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 80,
+      "resets": 3,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 10,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 11,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 12,
+      "draws": 3,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 50.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 150,
+      "resets": 3,
+      "S100": 0,
+      "F100": 1,
+      "initial_success_descriptive": 0,
+      "failed_draws": [
+        36
+      ]
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 13,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 14,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 2,
+      "mean_capped100_cost": 35.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 140,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 15,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 16,
+      "draws": 1,
+      "successes_by100": 1,
+      "successes_by25": 1,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 25,
+      "resets": 1,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 17,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 22.5,
+      "mean_capped25_cost": 22.5,
+      "physical_actions": 45,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 18,
+      "draws": 2,
+      "successes_by100": 2,
+      "successes_by25": 2,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 50,
+      "resets": 2,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 19,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 4,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 100,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    },
+    {
+      "arm": "history3_deadline",
+      "trajectory_id": 20,
+      "draws": 4,
+      "successes_by100": 4,
+      "successes_by25": 4,
+      "mean_capped100_cost": 25.0,
+      "mean_capped25_cost": 25.0,
+      "physical_actions": 100,
+      "resets": 4,
+      "S100": 0,
+      "F100": 0,
+      "initial_success_descriptive": 0,
+      "failed_draws": []
+    }
+  ],
+  "descriptive_factorial_contrasts": {
+    "success_by100": {
+      "draw_equal_mean": {
+        "D_at_H0": 0.02,
+        "D_at_H1": 0.0,
+        "H_at_D0": 0.04,
+        "H_at_D1": 0.02,
+        "interaction": -0.02
+      },
+      "trajectory_equal_after_draw_aggregation": {
+        "D_at_H0": 0.0125,
+        "D_at_H1": 0.0,
+        "H_at_D0": 0.029166666666666664,
+        "H_at_D1": 0.016666666666666666,
+        "interaction": -0.0125
+      },
+      "per_trajectory": [
+        {
+          "trajectory_id": 0,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 1,
+          "draws": 4,
+          "D_at_H0": 0.25,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.25,
+          "H_at_D1": 0.0,
+          "interaction": -0.25
+        },
+        {
+          "trajectory_id": 3,
+          "draws": 4,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 4,
+          "draws": 4,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 5,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 6,
+          "draws": 3,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 7,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 8,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 9,
+          "draws": 3,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.3333333333333333,
+          "H_at_D1": 0.3333333333333333,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 10,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 11,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 12,
+          "draws": 3,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 13,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 14,
+          "draws": 4,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 15,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 16,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 17,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 18,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 19,
+          "draws": 4,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 20,
+          "draws": 4,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        }
+      ],
+      "sign": "Positive success contrasts mean more hits; negative cost contrasts mean fewer capped actions.",
+      "limitation": "Additive-scale descriptive contrasts; binary nonadditivity does not establish an interaction mechanism, causation, or significance."
+    },
+    "success_by25": {
+      "draw_equal_mean": {
+        "D_at_H0": 0.54,
+        "D_at_H1": 0.54,
+        "H_at_D0": 0.0,
+        "H_at_D1": 0.0,
+        "interaction": 0.0
+      },
+      "trajectory_equal_after_draw_aggregation": {
+        "D_at_H0": 0.5125,
+        "D_at_H1": 0.5375,
+        "H_at_D0": -0.025,
+        "H_at_D1": 0.0,
+        "interaction": 0.025
+      },
+      "per_trajectory": [
+        {
+          "trajectory_id": 0,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 1,
+          "draws": 4,
+          "D_at_H0": 1.0,
+          "D_at_H1": 1.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 3,
+          "draws": 4,
+          "D_at_H0": 0.75,
+          "D_at_H1": 0.75,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 4,
+          "draws": 4,
+          "D_at_H0": 0.75,
+          "D_at_H1": 0.75,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 5,
+          "draws": 1,
+          "D_at_H0": 1.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 1.0,
+          "H_at_D1": 0.0,
+          "interaction": -1.0
+        },
+        {
+          "trajectory_id": 6,
+          "draws": 3,
+          "D_at_H0": 0.3333333333333333,
+          "D_at_H1": 0.3333333333333333,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 7,
+          "draws": 1,
+          "D_at_H0": 1.0,
+          "D_at_H1": 1.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 8,
+          "draws": 2,
+          "D_at_H0": 1.0,
+          "D_at_H1": 0.5,
+          "H_at_D0": 0.5,
+          "H_at_D1": 0.0,
+          "interaction": -0.5
+        },
+        {
+          "trajectory_id": 9,
+          "draws": 3,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 10,
+          "draws": 2,
+          "D_at_H0": 0.5,
+          "D_at_H1": 0.5,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 11,
+          "draws": 2,
+          "D_at_H0": 0.5,
+          "D_at_H1": 0.5,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 12,
+          "draws": 3,
+          "D_at_H0": 0.6666666666666666,
+          "D_at_H1": 0.6666666666666666,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 13,
+          "draws": 2,
+          "D_at_H0": 1.0,
+          "D_at_H1": 1.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 14,
+          "draws": 4,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 15,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 1.0,
+          "H_at_D0": -1.0,
+          "H_at_D1": 0.0,
+          "interaction": 1.0
+        },
+        {
+          "trajectory_id": 16,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 1.0,
+          "H_at_D0": -1.0,
+          "H_at_D1": 0.0,
+          "interaction": 1.0
+        },
+        {
+          "trajectory_id": 17,
+          "draws": 2,
+          "D_at_H0": 0.5,
+          "D_at_H1": 0.5,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 18,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 19,
+          "draws": 4,
+          "D_at_H0": 0.25,
+          "D_at_H1": 0.25,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 20,
+          "draws": 4,
+          "D_at_H0": 1.0,
+          "D_at_H1": 1.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        }
+      ],
+      "sign": "Positive success contrasts mean more hits; negative cost contrasts mean fewer capped actions.",
+      "limitation": "Additive-scale descriptive contrasts; binary nonadditivity does not establish an interaction mechanism, causation, or significance."
+    },
+    "capped100_cost": {
+      "draw_equal_mean": {
+        "D_at_H0": -5.3,
+        "D_at_H1": -4.5,
+        "H_at_D0": -2.5,
+        "H_at_D1": -1.7,
+        "interaction": 0.8
+      },
+      "trajectory_equal_after_draw_aggregation": {
+        "D_at_H0": -4.770833333333334,
+        "D_at_H1": -4.166666666666667,
+        "H_at_D0": -2.0208333333333335,
+        "H_at_D1": -1.4166666666666665,
+        "interaction": 0.6041666666666667
+      },
+      "per_trajectory": [
+        {
+          "trajectory_id": 0,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 1,
+          "draws": 4,
+          "D_at_H0": -27.5,
+          "D_at_H1": -15.0,
+          "H_at_D0": -12.5,
+          "H_at_D1": 0.0,
+          "interaction": 12.5
+        },
+        {
+          "trajectory_id": 3,
+          "draws": 4,
+          "D_at_H0": -8.75,
+          "D_at_H1": -8.75,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 4,
+          "draws": 4,
+          "D_at_H0": -7.5,
+          "D_at_H1": -7.5,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 5,
+          "draws": 1,
+          "D_at_H0": -10.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": -10.0,
+          "H_at_D1": 0.0,
+          "interaction": 10.0
+        },
+        {
+          "trajectory_id": 6,
+          "draws": 3,
+          "D_at_H0": -3.3333333333333335,
+          "D_at_H1": -3.3333333333333335,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 7,
+          "draws": 1,
+          "D_at_H0": -10.0,
+          "D_at_H1": -10.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 8,
+          "draws": 2,
+          "D_at_H0": -5.0,
+          "D_at_H1": -2.5,
+          "H_at_D0": -2.5,
+          "H_at_D1": 0.0,
+          "interaction": 2.5
+        },
+        {
+          "trajectory_id": 9,
+          "draws": 3,
+          "D_at_H0": 0.0,
+          "D_at_H1": -1.6666666666666667,
+          "H_at_D0": -21.666666666666668,
+          "H_at_D1": -23.333333333333332,
+          "interaction": -1.6666666666666667
+        },
+        {
+          "trajectory_id": 10,
+          "draws": 2,
+          "D_at_H0": -5.0,
+          "D_at_H1": -2.5,
+          "H_at_D0": -2.5,
+          "H_at_D1": 0.0,
+          "interaction": 2.5
+        },
+        {
+          "trajectory_id": 11,
+          "draws": 2,
+          "D_at_H0": -5.0,
+          "D_at_H1": -5.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 12,
+          "draws": 3,
+          "D_at_H0": -3.3333333333333335,
+          "D_at_H1": -3.3333333333333335,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 13,
+          "draws": 2,
+          "D_at_H0": -5.0,
+          "D_at_H1": -5.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 14,
+          "draws": 4,
+          "D_at_H0": 7.5,
+          "D_at_H1": 3.75,
+          "H_at_D0": 1.25,
+          "H_at_D1": -2.5,
+          "interaction": -3.75
+        },
+        {
+          "trajectory_id": 15,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": -5.0,
+          "H_at_D0": 5.0,
+          "H_at_D1": 0.0,
+          "interaction": -5.0
+        },
+        {
+          "trajectory_id": 16,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": -5.0,
+          "H_at_D0": 5.0,
+          "H_at_D1": 0.0,
+          "interaction": -5.0
+        },
+        {
+          "trajectory_id": 17,
+          "draws": 2,
+          "D_at_H0": -5.0,
+          "D_at_H1": -5.0,
+          "H_at_D0": -2.5,
+          "H_at_D1": -2.5,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 18,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 19,
+          "draws": 4,
+          "D_at_H0": -1.25,
+          "D_at_H1": -1.25,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 20,
+          "draws": 4,
+          "D_at_H0": -6.25,
+          "D_at_H1": -6.25,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        }
+      ],
+      "sign": "Positive success contrasts mean more hits; negative cost contrasts mean fewer capped actions.",
+      "limitation": "Additive-scale descriptive contrasts; binary nonadditivity does not establish an interaction mechanism, causation, or significance."
+    },
+    "capped25_cost": {
+      "draw_equal_mean": {
+        "D_at_H0": -0.1,
+        "D_at_H1": -0.2,
+        "H_at_D0": 0.0,
+        "H_at_D1": -0.1,
+        "interaction": -0.1
+      },
+      "trajectory_equal_after_draw_aggregation": {
+        "D_at_H0": -0.0625,
+        "D_at_H1": -0.1875,
+        "H_at_D0": 0.0,
+        "H_at_D1": -0.125,
+        "interaction": -0.125
+      },
+      "per_trajectory": [
+        {
+          "trajectory_id": 0,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 1,
+          "draws": 4,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 3,
+          "draws": 4,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 4,
+          "draws": 4,
+          "D_at_H0": -1.25,
+          "D_at_H1": -1.25,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 5,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 6,
+          "draws": 3,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 7,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 8,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 9,
+          "draws": 3,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 10,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 11,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 12,
+          "draws": 3,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 13,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 14,
+          "draws": 4,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 15,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 16,
+          "draws": 1,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 17,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": -2.5,
+          "H_at_D0": 0.0,
+          "H_at_D1": -2.5,
+          "interaction": -2.5
+        },
+        {
+          "trajectory_id": 18,
+          "draws": 2,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 19,
+          "draws": 4,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        },
+        {
+          "trajectory_id": 20,
+          "draws": 4,
+          "D_at_H0": 0.0,
+          "D_at_H1": 0.0,
+          "H_at_D0": 0.0,
+          "H_at_D1": 0.0,
+          "interaction": 0.0
+        }
+      ],
+      "sign": "Positive success contrasts mean more hits; negative cost contrasts mean fewer capped actions.",
+      "limitation": "Additive-scale descriptive contrasts; binary nonadditivity does not establish an interaction mechanism, causation, or significance."
+    }
+  },
+  "budget_groups": {
+    "native_frozen": {
+      "model_loads": 50,
+      "planning_predict_calls": 193500,
+      "planning_context_frames": 464400,
+      "planning_encode_calls": 39087,
+      "planning_encoded_frames": 39087,
+      "planning_action_encode_calls": 193500,
+      "planning_action_encoded_tokens": 193500,
+      "action_backward_calls": 38700,
+      "parameter_updates": 0,
+      "physical_actions": 1935,
+      "post100_rollout_calls": 387,
+      "post100_predict_calls": 1935,
+      "post100_context_frames": 4644,
+      "post100_encode_calls": 387,
+      "post100_encoded_frames": 387,
+      "post100_action_encode_calls": 1935,
+      "post100_action_encoded_tokens": 1935,
+      "terminal_encode_calls": 50,
+      "terminal_encoded_frames": 50,
+      "diagnostic_state_digest_calls": 874,
+      "base_state_digest_calls": 100
+    },
+    "deadline": {
+      "model_loads": 50,
+      "planning_predict_calls": 167000,
+      "planning_context_frames": 400800,
+      "planning_encode_calls": 33734,
+      "planning_encoded_frames": 33734,
+      "planning_action_encode_calls": 167000,
+      "planning_action_encoded_tokens": 167000,
+      "action_backward_calls": 33400,
+      "parameter_updates": 0,
+      "physical_actions": 1670,
+      "post100_rollout_calls": 334,
+      "post100_predict_calls": 1670,
+      "post100_context_frames": 4008,
+      "post100_encode_calls": 334,
+      "post100_encoded_frames": 334,
+      "post100_action_encode_calls": 1670,
+      "post100_action_encoded_tokens": 1670,
+      "terminal_encode_calls": 50,
+      "terminal_encoded_frames": 50,
+      "diagnostic_state_digest_calls": 768,
+      "base_state_digest_calls": 100
+    },
+    "history3": {
+      "model_loads": 50,
+      "planning_predict_calls": 181000,
+      "planning_context_frames": 523000,
+      "planning_encode_calls": 36562,
+      "planning_encoded_frames": 93962,
+      "planning_action_encode_calls": 181000,
+      "planning_action_encoded_tokens": 238400,
+      "action_backward_calls": 36200,
+      "parameter_updates": 0,
+      "physical_actions": 1810,
+      "post100_rollout_calls": 362,
+      "post100_predict_calls": 1810,
+      "post100_context_frames": 5230,
+      "post100_encode_calls": 362,
+      "post100_encoded_frames": 936,
+      "post100_action_encode_calls": 1810,
+      "post100_action_encoded_tokens": 2384,
+      "terminal_encode_calls": 50,
+      "terminal_encoded_frames": 50,
+      "diagnostic_state_digest_calls": 824,
+      "base_state_digest_calls": 100
+    },
+    "history3_deadline": {
+      "model_loads": 50,
+      "planning_predict_calls": 158500,
+      "planning_context_frames": 455500,
+      "planning_encode_calls": 32017,
+      "planning_encoded_frames": 80417,
+      "planning_action_encode_calls": 158500,
+      "planning_action_encoded_tokens": 206900,
+      "action_backward_calls": 31700,
+      "parameter_updates": 0,
+      "physical_actions": 1585,
+      "post100_rollout_calls": 317,
+      "post100_predict_calls": 1585,
+      "post100_context_frames": 4555,
+      "post100_encode_calls": 317,
+      "post100_encoded_frames": 801,
+      "post100_action_encode_calls": 1585,
+      "post100_action_encoded_tokens": 2069,
+      "terminal_encode_calls": 50,
+      "terminal_encoded_frames": 50,
+      "diagnostic_state_digest_calls": 734,
+      "base_state_digest_calls": 100
+    }
+  },
+  "timing_and_memory_by_arm": {
+    "native_frozen": {
+      "case_wall_seconds_sum": 3624.4370495997136,
+      "case_wall_seconds_mean": 72.48874099199428,
+      "planning_total_wall_seconds_sum": null,
+      "planning_total_wall_seconds_mean": null,
+      "planning_time_available_cases": 0,
+      "peak_allocated_bytes_max": 935650304,
+      "interpretation": "Measured execution time and allocated CUDA peak, not matched FLOPs. Baseline planning-only time is absent rather than zero; history and deadline change computation."
+    },
+    "deadline": {
+      "case_wall_seconds_sum": 3774.9138880997198,
+      "case_wall_seconds_mean": 75.4982777619944,
+      "planning_total_wall_seconds_sum": 3099.8075310997665,
+      "planning_total_wall_seconds_mean": 61.996150621995326,
+      "planning_time_available_cases": 50,
+      "peak_allocated_bytes_max": 935650304,
+      "interpretation": "Measured execution time and allocated CUDA peak, not matched FLOPs. Baseline planning-only time is absent rather than zero; history and deadline change computation."
+    },
+    "history3": {
+      "case_wall_seconds_sum": 4625.072333000135,
+      "case_wall_seconds_mean": 92.5014466600027,
+      "planning_total_wall_seconds_sum": 3936.0583545021946,
+      "planning_total_wall_seconds_mean": 78.72116709004389,
+      "planning_time_available_cases": 50,
+      "peak_allocated_bytes_max": 1210354176,
+      "interpretation": "Measured execution time and allocated CUDA peak, not matched FLOPs. Baseline planning-only time is absent rather than zero; history and deadline change computation."
+    },
+    "history3_deadline": {
+      "case_wall_seconds_sum": 4200.727184599615,
+      "case_wall_seconds_mean": 84.01454369199229,
+      "planning_total_wall_seconds_sum": 3520.550764999236,
+      "planning_total_wall_seconds_mean": 70.41101529998473,
+      "planning_time_available_cases": 50,
+      "peak_allocated_bytes_max": 1210354176,
+      "interpretation": "Measured execution time and allocated CUDA peak, not matched FLOPs. Baseline planning-only time is absent rather than zero; history and deadline change computation."
+    }
+  },
+  "new_physical_actions": 5065,
+  "new_resets": 150,
+  "new_analysis_model_calls": 0,
+  "new_analysis_encoder_calls": 0,
+  "new_analysis_physics_steps": 0,
+  "all_consumed_development_data": true,
+  "independent_confirmation": false,
+  "definitions": {
+    "primary": "By100 native joint4D position<20 and wrapped angle<pi/9, checked every5 raw; first success, no action0 relabeling.",
+    "secondary": "By25 is a prespecified secondary horizon. Capped25 costs25 for both failures and successes exactlyat25; success flags remain separate.",
+    "units": "One model token contains5 raw commands. Future horizon stays5 tokens; real history has1/2/3 available frames, not future observations.",
+    "weighting": "Each arm uses the same50 windows. Baseline reused once;150 new runs are not150 independent tasks. Trajectory summaries retain dependence; no bootstrap/p-values.",
+    "information": "History arms have more own-episode observed frames and fixed executed action tokens; no extra physical interactions. More encoded/context frames mean unequal compute despite equal GD100/horizon.",
+    "deadline": "For rounds0..4 deadline uses relative forecast slot5-round; from round5 onwards native all-horizon weighting. History alone keeps original staged switch.",
+    "factorial": "B=native, D=deadline, H=history3, HD=history3_deadline. D_at_H0=D-B; D_at_H1=HD-H; H_at_D0=H-B; H_at_D1=HD-D; interaction=HD-H-D+B. Four outcomes per same draw, not200 independent samples.",
+    "limitations": "Methods are deployment diagnostics on consumed development data. Neither success differences nor descriptive paired counts establish originality, SOTA, or a unique mechanism."
+  }
+}

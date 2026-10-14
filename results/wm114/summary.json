@@ -1,0 +1,1414 @@
+{
+  "schema": "wm114-saved-analysis-v1",
+  "status": "complete_all_cases",
+  "protocol_sha256": "491e69bfea8999fb7b3487fd61de29a647379924b5a38c084922d1f075cfdf33",
+  "planned_cases": 64,
+  "planned_draws": 16,
+  "planned_trajectory_groups": 11,
+  "completed_cases": 64,
+  "completed_queue_prefix": 64,
+  "common_completed_draws": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "common_trajectory_groups": [
+    "val:1",
+    "val:10",
+    "val:11",
+    "val:12",
+    "val:13",
+    "val:14",
+    "val:20",
+    "val:3",
+    "val:4",
+    "val:6",
+    "val:9"
+  ],
+  "pending": [],
+  "matched_main": {
+    "B": {
+      "cases": 16,
+      "success_by100": 14,
+      "success_by25": 13,
+      "success_rate_by100": 0.875,
+      "success_rate_by25": 0.8125,
+      "mean_capped100": 35.625,
+      "mean_capped25": 25,
+      "physical_actions": 570
+    },
+    "BR": {
+      "cases": 16,
+      "success_by100": 14,
+      "success_by25": 14,
+      "success_rate_by100": 0.875,
+      "success_rate_by25": 0.875,
+      "mean_capped100": 34.0625,
+      "mean_capped25": 24.6875,
+      "physical_actions": 545
+    },
+    "BG": {
+      "cases": 16,
+      "success_by100": 14,
+      "success_by25": 13,
+      "success_rate_by100": 0.875,
+      "success_rate_by25": 0.8125,
+      "mean_capped100": 34.6875,
+      "mean_capped25": 25,
+      "physical_actions": 555
+    },
+    "BRG": {
+      "cases": 16,
+      "success_by100": 14,
+      "success_by25": 12,
+      "success_rate_by100": 0.875,
+      "success_rate_by25": 0.75,
+      "mean_capped100": 35.625,
+      "mean_capped25": 25,
+      "physical_actions": 570
+    }
+  },
+  "unmatched_completion_descriptions": {
+    "B": {
+      "cases": 16,
+      "success_by100": 14,
+      "success_by25": 13,
+      "success_rate_by100": 0.875,
+      "success_rate_by25": 0.8125,
+      "mean_capped100": 35.625,
+      "mean_capped25": 25,
+      "physical_actions": 570
+    },
+    "BR": {
+      "cases": 16,
+      "success_by100": 14,
+      "success_by25": 14,
+      "success_rate_by100": 0.875,
+      "success_rate_by25": 0.875,
+      "mean_capped100": 34.0625,
+      "mean_capped25": 24.6875,
+      "physical_actions": 545
+    },
+    "BG": {
+      "cases": 16,
+      "success_by100": 14,
+      "success_by25": 13,
+      "success_rate_by100": 0.875,
+      "success_rate_by25": 0.8125,
+      "mean_capped100": 34.6875,
+      "mean_capped25": 25,
+      "physical_actions": 555
+    },
+    "BRG": {
+      "cases": 16,
+      "success_by100": 14,
+      "success_by25": 12,
+      "success_rate_by100": 0.875,
+      "success_rate_by25": 0.75,
+      "mean_capped100": 35.625,
+      "mean_capped25": 25,
+      "physical_actions": 570
+    }
+  },
+  "comparisons_vs_B": {
+    "BR": {
+      "paired_draws": 16,
+      "recovered_by100": [],
+      "new_failure_by100": [],
+      "recovered_by25": [
+        1
+      ],
+      "new_failure_by25": [],
+      "mean_capped100_delta": -1.5625,
+      "mean_capped25_delta": -0.3125,
+      "interaction_cost_wins": 2,
+      "interaction_cost_ties": 14,
+      "interaction_cost_losses": 0
+    },
+    "BG": {
+      "paired_draws": 16,
+      "recovered_by100": [],
+      "new_failure_by100": [],
+      "recovered_by25": [],
+      "new_failure_by25": [],
+      "mean_capped100_delta": -0.9375,
+      "mean_capped25_delta": 0,
+      "interaction_cost_wins": 1,
+      "interaction_cost_ties": 15,
+      "interaction_cost_losses": 0
+    },
+    "BRG": {
+      "paired_draws": 16,
+      "recovered_by100": [],
+      "new_failure_by100": [],
+      "recovered_by25": [],
+      "new_failure_by25": [
+        13
+      ],
+      "mean_capped100_delta": 0,
+      "mean_capped25_delta": 0,
+      "interaction_cost_wins": 1,
+      "interaction_cost_ties": 14,
+      "interaction_cost_losses": 1
+    }
+  },
+  "matched_budget": {
+    "B": {
+      "cases": 16,
+      "counts_total": {
+        "action_backward_calls": 11400,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 114,
+        "monitor_actual_encoded_frames": 114,
+        "monitor_plan_action_encode_calls": 570,
+        "monitor_plan_action_tokens": 750,
+        "monitor_plan_context_frames": 1646,
+        "monitor_plan_encode_calls": 114,
+        "monitor_plan_encoded_frames": 294,
+        "monitor_plan_predict_calls": 570,
+        "physical_actions": 570,
+        "planning_action_encode_calls": 57000,
+        "planning_action_tokens": 75000,
+        "planning_context_frames": 164600,
+        "planning_encode_calls": 11514,
+        "planning_encoded_frames": 29514,
+        "planning_predict_calls": 57000,
+        "prequential_actual_encode_calls": 114,
+        "prequential_actual_encoded_frames": 114,
+        "prequential_prediction_action_encode_calls": 114,
+        "prequential_prediction_action_tokens": 294,
+        "prequential_prediction_context_frames": 294,
+        "prequential_prediction_encode_calls": 114,
+        "prequential_prediction_encoded_frames": 294,
+        "prequential_prediction_predict_calls": 114
+      },
+      "counts_cases_reporting": {
+        "action_backward_calls": 16,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 16,
+        "monitor_actual_encoded_frames": 16,
+        "monitor_plan_action_encode_calls": 16,
+        "monitor_plan_action_tokens": 16,
+        "monitor_plan_context_frames": 16,
+        "monitor_plan_encode_calls": 16,
+        "monitor_plan_encoded_frames": 16,
+        "monitor_plan_predict_calls": 16,
+        "physical_actions": 16,
+        "planning_action_encode_calls": 16,
+        "planning_action_tokens": 16,
+        "planning_context_frames": 16,
+        "planning_encode_calls": 16,
+        "planning_encoded_frames": 16,
+        "planning_predict_calls": 16,
+        "prequential_actual_encode_calls": 16,
+        "prequential_actual_encoded_frames": 16,
+        "prequential_prediction_action_encode_calls": 16,
+        "prequential_prediction_action_tokens": 16,
+        "prequential_prediction_context_frames": 16,
+        "prequential_prediction_encode_calls": 16,
+        "prequential_prediction_encoded_frames": 16,
+        "prequential_prediction_predict_calls": 16
+      },
+      "time_totals": {
+        "planning_total_wall_seconds": 1880.110301599605,
+        "training_total_wall_seconds": 0,
+        "monitor_total_wall_seconds": 18.73557759798132,
+        "wall_seconds": 2155.1188657996245
+      },
+      "time_means": {
+        "planning_total_wall_seconds": 117.50689384997531,
+        "training_total_wall_seconds": 0,
+        "monitor_total_wall_seconds": 1.1709735998738324,
+        "wall_seconds": 134.69492911247653
+      },
+      "totals": {
+        "residual_updates": 0,
+        "replan_rounds": 114,
+        "reuse_rounds": 0,
+        "rounds": 114
+      },
+      "physical_actions": 570
+    },
+    "BR": {
+      "cases": 16,
+      "counts_total": {
+        "action_backward_calls": 10900,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 109,
+        "monitor_actual_encoded_frames": 109,
+        "monitor_plan_action_encode_calls": 545,
+        "monitor_plan_action_tokens": 715,
+        "monitor_plan_context_frames": 1571,
+        "monitor_plan_encode_calls": 109,
+        "monitor_plan_encoded_frames": 279,
+        "monitor_plan_predict_calls": 545,
+        "physical_actions": 545,
+        "planning_action_encode_calls": 54500,
+        "planning_action_tokens": 71500,
+        "planning_context_frames": 157100,
+        "planning_encode_calls": 11009,
+        "planning_encoded_frames": 28009,
+        "planning_predict_calls": 54500,
+        "prequential_actual_encode_calls": 109,
+        "prequential_actual_encoded_frames": 109,
+        "prequential_prediction_action_encode_calls": 109,
+        "prequential_prediction_action_tokens": 279,
+        "prequential_prediction_context_frames": 279,
+        "prequential_prediction_encode_calls": 109,
+        "prequential_prediction_encoded_frames": 279,
+        "prequential_prediction_predict_calls": 109,
+        "residual_optimizer_steps": 93,
+        "residual_training_backward_calls": 655,
+        "training_action_encode_calls": 93,
+        "training_action_tokens": 399,
+        "training_context_frames": 1140,
+        "training_encode_calls": 93,
+        "training_encoded_frames": 399,
+        "training_predict_calls": 655
+      },
+      "counts_cases_reporting": {
+        "action_backward_calls": 16,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 16,
+        "monitor_actual_encoded_frames": 16,
+        "monitor_plan_action_encode_calls": 16,
+        "monitor_plan_action_tokens": 16,
+        "monitor_plan_context_frames": 16,
+        "monitor_plan_encode_calls": 16,
+        "monitor_plan_encoded_frames": 16,
+        "monitor_plan_predict_calls": 16,
+        "physical_actions": 16,
+        "planning_action_encode_calls": 16,
+        "planning_action_tokens": 16,
+        "planning_context_frames": 16,
+        "planning_encode_calls": 16,
+        "planning_encoded_frames": 16,
+        "planning_predict_calls": 16,
+        "prequential_actual_encode_calls": 16,
+        "prequential_actual_encoded_frames": 16,
+        "prequential_prediction_action_encode_calls": 16,
+        "prequential_prediction_action_tokens": 16,
+        "prequential_prediction_context_frames": 16,
+        "prequential_prediction_encode_calls": 16,
+        "prequential_prediction_encoded_frames": 16,
+        "prequential_prediction_predict_calls": 16,
+        "residual_optimizer_steps": 16,
+        "residual_training_backward_calls": 16,
+        "training_action_encode_calls": 16,
+        "training_action_tokens": 16,
+        "training_context_frames": 16,
+        "training_encode_calls": 16,
+        "training_encoded_frames": 16,
+        "training_predict_calls": 16
+      },
+      "time_totals": {
+        "planning_total_wall_seconds": 1978.3956987990532,
+        "training_total_wall_seconds": 28.532541198888794,
+        "monitor_total_wall_seconds": 18.136606700951234,
+        "wall_seconds": 2266.3988572002854
+      },
+      "time_means": {
+        "planning_total_wall_seconds": 123.64973117494083,
+        "training_total_wall_seconds": 1.7832838249305496,
+        "monitor_total_wall_seconds": 1.133537918809452,
+        "wall_seconds": 141.64992857501784
+      },
+      "totals": {
+        "residual_updates": 93,
+        "replan_rounds": 109,
+        "reuse_rounds": 0,
+        "rounds": 109
+      },
+      "physical_actions": 545
+    },
+    "BG": {
+      "cases": 16,
+      "counts_total": {
+        "action_backward_calls": 5100,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 111,
+        "monitor_actual_encoded_frames": 111,
+        "monitor_plan_action_encode_calls": 255,
+        "monitor_plan_action_tokens": 323,
+        "monitor_plan_context_frames": 715,
+        "monitor_plan_encode_calls": 51,
+        "monitor_plan_encoded_frames": 119,
+        "monitor_plan_predict_calls": 255,
+        "physical_actions": 555,
+        "planning_action_encode_calls": 25500,
+        "planning_action_tokens": 32300,
+        "planning_context_frames": 71500,
+        "planning_encode_calls": 5151,
+        "planning_encoded_frames": 11951,
+        "planning_predict_calls": 25500,
+        "prequential_actual_encode_calls": 111,
+        "prequential_actual_encoded_frames": 111,
+        "prequential_prediction_action_encode_calls": 111,
+        "prequential_prediction_action_tokens": 285,
+        "prequential_prediction_context_frames": 285,
+        "prequential_prediction_encode_calls": 111,
+        "prequential_prediction_encoded_frames": 285,
+        "prequential_prediction_predict_calls": 111
+      },
+      "counts_cases_reporting": {
+        "action_backward_calls": 16,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 16,
+        "monitor_actual_encoded_frames": 16,
+        "monitor_plan_action_encode_calls": 16,
+        "monitor_plan_action_tokens": 16,
+        "monitor_plan_context_frames": 16,
+        "monitor_plan_encode_calls": 16,
+        "monitor_plan_encoded_frames": 16,
+        "monitor_plan_predict_calls": 16,
+        "physical_actions": 16,
+        "planning_action_encode_calls": 16,
+        "planning_action_tokens": 16,
+        "planning_context_frames": 16,
+        "planning_encode_calls": 16,
+        "planning_encoded_frames": 16,
+        "planning_predict_calls": 16,
+        "prequential_actual_encode_calls": 16,
+        "prequential_actual_encoded_frames": 16,
+        "prequential_prediction_action_encode_calls": 16,
+        "prequential_prediction_action_tokens": 16,
+        "prequential_prediction_context_frames": 16,
+        "prequential_prediction_encode_calls": 16,
+        "prequential_prediction_encoded_frames": 16,
+        "prequential_prediction_predict_calls": 16
+      },
+      "time_totals": {
+        "planning_total_wall_seconds": 836.6599187003449,
+        "training_total_wall_seconds": 0,
+        "monitor_total_wall_seconds": 14.753683102782816,
+        "wall_seconds": 1086.6880055000074
+      },
+      "time_means": {
+        "planning_total_wall_seconds": 52.291244918771554,
+        "training_total_wall_seconds": 0,
+        "monitor_total_wall_seconds": 0.922105193923926,
+        "wall_seconds": 67.91800034375046
+      },
+      "totals": {
+        "residual_updates": 0,
+        "replan_rounds": 51,
+        "reuse_rounds": 60,
+        "rounds": 111
+      },
+      "physical_actions": 555
+    },
+    "BRG": {
+      "cases": 16,
+      "counts_total": {
+        "action_backward_calls": 5400,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 114,
+        "monitor_actual_encoded_frames": 114,
+        "monitor_plan_action_encode_calls": 270,
+        "monitor_plan_action_tokens": 344,
+        "monitor_plan_context_frames": 760,
+        "monitor_plan_encode_calls": 54,
+        "monitor_plan_encoded_frames": 128,
+        "monitor_plan_predict_calls": 270,
+        "physical_actions": 570,
+        "planning_action_encode_calls": 27000,
+        "planning_action_tokens": 34400,
+        "planning_context_frames": 76000,
+        "planning_encode_calls": 5454,
+        "planning_encoded_frames": 12854,
+        "planning_predict_calls": 27000,
+        "prequential_actual_encode_calls": 114,
+        "prequential_actual_encoded_frames": 114,
+        "prequential_prediction_action_encode_calls": 114,
+        "prequential_prediction_action_tokens": 294,
+        "prequential_prediction_context_frames": 294,
+        "prequential_prediction_encode_calls": 114,
+        "prequential_prediction_encoded_frames": 294,
+        "prequential_prediction_predict_calls": 114,
+        "residual_optimizer_steps": 98,
+        "residual_training_backward_calls": 712,
+        "training_action_encode_calls": 98,
+        "training_action_tokens": 428,
+        "training_context_frames": 1244,
+        "training_encode_calls": 98,
+        "training_encoded_frames": 428,
+        "training_predict_calls": 712
+      },
+      "counts_cases_reporting": {
+        "action_backward_calls": 16,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 16,
+        "monitor_actual_encoded_frames": 16,
+        "monitor_plan_action_encode_calls": 16,
+        "monitor_plan_action_tokens": 16,
+        "monitor_plan_context_frames": 16,
+        "monitor_plan_encode_calls": 16,
+        "monitor_plan_encoded_frames": 16,
+        "monitor_plan_predict_calls": 16,
+        "physical_actions": 16,
+        "planning_action_encode_calls": 16,
+        "planning_action_tokens": 16,
+        "planning_context_frames": 16,
+        "planning_encode_calls": 16,
+        "planning_encoded_frames": 16,
+        "planning_predict_calls": 16,
+        "prequential_actual_encode_calls": 16,
+        "prequential_actual_encoded_frames": 16,
+        "prequential_prediction_action_encode_calls": 16,
+        "prequential_prediction_action_tokens": 16,
+        "prequential_prediction_context_frames": 16,
+        "prequential_prediction_encode_calls": 16,
+        "prequential_prediction_encoded_frames": 16,
+        "prequential_prediction_predict_calls": 16,
+        "residual_optimizer_steps": 16,
+        "residual_training_backward_calls": 16,
+        "training_action_encode_calls": 16,
+        "training_action_tokens": 16,
+        "training_context_frames": 16,
+        "training_encode_calls": 16,
+        "training_encoded_frames": 16,
+        "training_predict_calls": 16
+      },
+      "time_totals": {
+        "planning_total_wall_seconds": 985.1949272016063,
+        "training_total_wall_seconds": 30.704167899442837,
+        "monitor_total_wall_seconds": 15.168801097432151,
+        "wall_seconds": 1270.4651332998183
+      },
+      "time_means": {
+        "planning_total_wall_seconds": 61.574682950100396,
+        "training_total_wall_seconds": 1.9190104937151773,
+        "monitor_total_wall_seconds": 0.9480500685895095,
+        "wall_seconds": 79.40407083123864
+      },
+      "totals": {
+        "residual_updates": 98,
+        "replan_rounds": 54,
+        "reuse_rounds": 60,
+        "rounds": 114
+      },
+      "physical_actions": 570
+    }
+  },
+  "all_completed_budget": {
+    "B": {
+      "cases": 16,
+      "counts_total": {
+        "action_backward_calls": 11400,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 114,
+        "monitor_actual_encoded_frames": 114,
+        "monitor_plan_action_encode_calls": 570,
+        "monitor_plan_action_tokens": 750,
+        "monitor_plan_context_frames": 1646,
+        "monitor_plan_encode_calls": 114,
+        "monitor_plan_encoded_frames": 294,
+        "monitor_plan_predict_calls": 570,
+        "physical_actions": 570,
+        "planning_action_encode_calls": 57000,
+        "planning_action_tokens": 75000,
+        "planning_context_frames": 164600,
+        "planning_encode_calls": 11514,
+        "planning_encoded_frames": 29514,
+        "planning_predict_calls": 57000,
+        "prequential_actual_encode_calls": 114,
+        "prequential_actual_encoded_frames": 114,
+        "prequential_prediction_action_encode_calls": 114,
+        "prequential_prediction_action_tokens": 294,
+        "prequential_prediction_context_frames": 294,
+        "prequential_prediction_encode_calls": 114,
+        "prequential_prediction_encoded_frames": 294,
+        "prequential_prediction_predict_calls": 114
+      },
+      "counts_cases_reporting": {
+        "action_backward_calls": 16,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 16,
+        "monitor_actual_encoded_frames": 16,
+        "monitor_plan_action_encode_calls": 16,
+        "monitor_plan_action_tokens": 16,
+        "monitor_plan_context_frames": 16,
+        "monitor_plan_encode_calls": 16,
+        "monitor_plan_encoded_frames": 16,
+        "monitor_plan_predict_calls": 16,
+        "physical_actions": 16,
+        "planning_action_encode_calls": 16,
+        "planning_action_tokens": 16,
+        "planning_context_frames": 16,
+        "planning_encode_calls": 16,
+        "planning_encoded_frames": 16,
+        "planning_predict_calls": 16,
+        "prequential_actual_encode_calls": 16,
+        "prequential_actual_encoded_frames": 16,
+        "prequential_prediction_action_encode_calls": 16,
+        "prequential_prediction_action_tokens": 16,
+        "prequential_prediction_context_frames": 16,
+        "prequential_prediction_encode_calls": 16,
+        "prequential_prediction_encoded_frames": 16,
+        "prequential_prediction_predict_calls": 16
+      },
+      "time_totals": {
+        "planning_total_wall_seconds": 1880.110301599605,
+        "training_total_wall_seconds": 0,
+        "monitor_total_wall_seconds": 18.73557759798132,
+        "wall_seconds": 2155.1188657996245
+      },
+      "time_means": {
+        "planning_total_wall_seconds": 117.50689384997531,
+        "training_total_wall_seconds": 0,
+        "monitor_total_wall_seconds": 1.1709735998738324,
+        "wall_seconds": 134.69492911247653
+      },
+      "totals": {
+        "residual_updates": 0,
+        "replan_rounds": 114,
+        "reuse_rounds": 0,
+        "rounds": 114
+      },
+      "physical_actions": 570
+    },
+    "BR": {
+      "cases": 16,
+      "counts_total": {
+        "action_backward_calls": 10900,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 109,
+        "monitor_actual_encoded_frames": 109,
+        "monitor_plan_action_encode_calls": 545,
+        "monitor_plan_action_tokens": 715,
+        "monitor_plan_context_frames": 1571,
+        "monitor_plan_encode_calls": 109,
+        "monitor_plan_encoded_frames": 279,
+        "monitor_plan_predict_calls": 545,
+        "physical_actions": 545,
+        "planning_action_encode_calls": 54500,
+        "planning_action_tokens": 71500,
+        "planning_context_frames": 157100,
+        "planning_encode_calls": 11009,
+        "planning_encoded_frames": 28009,
+        "planning_predict_calls": 54500,
+        "prequential_actual_encode_calls": 109,
+        "prequential_actual_encoded_frames": 109,
+        "prequential_prediction_action_encode_calls": 109,
+        "prequential_prediction_action_tokens": 279,
+        "prequential_prediction_context_frames": 279,
+        "prequential_prediction_encode_calls": 109,
+        "prequential_prediction_encoded_frames": 279,
+        "prequential_prediction_predict_calls": 109,
+        "residual_optimizer_steps": 93,
+        "residual_training_backward_calls": 655,
+        "training_action_encode_calls": 93,
+        "training_action_tokens": 399,
+        "training_context_frames": 1140,
+        "training_encode_calls": 93,
+        "training_encoded_frames": 399,
+        "training_predict_calls": 655
+      },
+      "counts_cases_reporting": {
+        "action_backward_calls": 16,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 16,
+        "monitor_actual_encoded_frames": 16,
+        "monitor_plan_action_encode_calls": 16,
+        "monitor_plan_action_tokens": 16,
+        "monitor_plan_context_frames": 16,
+        "monitor_plan_encode_calls": 16,
+        "monitor_plan_encoded_frames": 16,
+        "monitor_plan_predict_calls": 16,
+        "physical_actions": 16,
+        "planning_action_encode_calls": 16,
+        "planning_action_tokens": 16,
+        "planning_context_frames": 16,
+        "planning_encode_calls": 16,
+        "planning_encoded_frames": 16,
+        "planning_predict_calls": 16,
+        "prequential_actual_encode_calls": 16,
+        "prequential_actual_encoded_frames": 16,
+        "prequential_prediction_action_encode_calls": 16,
+        "prequential_prediction_action_tokens": 16,
+        "prequential_prediction_context_frames": 16,
+        "prequential_prediction_encode_calls": 16,
+        "prequential_prediction_encoded_frames": 16,
+        "prequential_prediction_predict_calls": 16,
+        "residual_optimizer_steps": 16,
+        "residual_training_backward_calls": 16,
+        "training_action_encode_calls": 16,
+        "training_action_tokens": 16,
+        "training_context_frames": 16,
+        "training_encode_calls": 16,
+        "training_encoded_frames": 16,
+        "training_predict_calls": 16
+      },
+      "time_totals": {
+        "planning_total_wall_seconds": 1978.3956987990532,
+        "training_total_wall_seconds": 28.532541198888794,
+        "monitor_total_wall_seconds": 18.136606700951234,
+        "wall_seconds": 2266.3988572002854
+      },
+      "time_means": {
+        "planning_total_wall_seconds": 123.64973117494083,
+        "training_total_wall_seconds": 1.7832838249305496,
+        "monitor_total_wall_seconds": 1.133537918809452,
+        "wall_seconds": 141.64992857501784
+      },
+      "totals": {
+        "residual_updates": 93,
+        "replan_rounds": 109,
+        "reuse_rounds": 0,
+        "rounds": 109
+      },
+      "physical_actions": 545
+    },
+    "BG": {
+      "cases": 16,
+      "counts_total": {
+        "action_backward_calls": 5100,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 111,
+        "monitor_actual_encoded_frames": 111,
+        "monitor_plan_action_encode_calls": 255,
+        "monitor_plan_action_tokens": 323,
+        "monitor_plan_context_frames": 715,
+        "monitor_plan_encode_calls": 51,
+        "monitor_plan_encoded_frames": 119,
+        "monitor_plan_predict_calls": 255,
+        "physical_actions": 555,
+        "planning_action_encode_calls": 25500,
+        "planning_action_tokens": 32300,
+        "planning_context_frames": 71500,
+        "planning_encode_calls": 5151,
+        "planning_encoded_frames": 11951,
+        "planning_predict_calls": 25500,
+        "prequential_actual_encode_calls": 111,
+        "prequential_actual_encoded_frames": 111,
+        "prequential_prediction_action_encode_calls": 111,
+        "prequential_prediction_action_tokens": 285,
+        "prequential_prediction_context_frames": 285,
+        "prequential_prediction_encode_calls": 111,
+        "prequential_prediction_encoded_frames": 285,
+        "prequential_prediction_predict_calls": 111
+      },
+      "counts_cases_reporting": {
+        "action_backward_calls": 16,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 16,
+        "monitor_actual_encoded_frames": 16,
+        "monitor_plan_action_encode_calls": 16,
+        "monitor_plan_action_tokens": 16,
+        "monitor_plan_context_frames": 16,
+        "monitor_plan_encode_calls": 16,
+        "monitor_plan_encoded_frames": 16,
+        "monitor_plan_predict_calls": 16,
+        "physical_actions": 16,
+        "planning_action_encode_calls": 16,
+        "planning_action_tokens": 16,
+        "planning_context_frames": 16,
+        "planning_encode_calls": 16,
+        "planning_encoded_frames": 16,
+        "planning_predict_calls": 16,
+        "prequential_actual_encode_calls": 16,
+        "prequential_actual_encoded_frames": 16,
+        "prequential_prediction_action_encode_calls": 16,
+        "prequential_prediction_action_tokens": 16,
+        "prequential_prediction_context_frames": 16,
+        "prequential_prediction_encode_calls": 16,
+        "prequential_prediction_encoded_frames": 16,
+        "prequential_prediction_predict_calls": 16
+      },
+      "time_totals": {
+        "planning_total_wall_seconds": 836.6599187003449,
+        "training_total_wall_seconds": 0,
+        "monitor_total_wall_seconds": 14.753683102782816,
+        "wall_seconds": 1086.6880055000074
+      },
+      "time_means": {
+        "planning_total_wall_seconds": 52.291244918771554,
+        "training_total_wall_seconds": 0,
+        "monitor_total_wall_seconds": 0.922105193923926,
+        "wall_seconds": 67.91800034375046
+      },
+      "totals": {
+        "residual_updates": 0,
+        "replan_rounds": 51,
+        "reuse_rounds": 60,
+        "rounds": 111
+      },
+      "physical_actions": 555
+    },
+    "BRG": {
+      "cases": 16,
+      "counts_total": {
+        "action_backward_calls": 5400,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 114,
+        "monitor_actual_encoded_frames": 114,
+        "monitor_plan_action_encode_calls": 270,
+        "monitor_plan_action_tokens": 344,
+        "monitor_plan_context_frames": 760,
+        "monitor_plan_encode_calls": 54,
+        "monitor_plan_encoded_frames": 128,
+        "monitor_plan_predict_calls": 270,
+        "physical_actions": 570,
+        "planning_action_encode_calls": 27000,
+        "planning_action_tokens": 34400,
+        "planning_context_frames": 76000,
+        "planning_encode_calls": 5454,
+        "planning_encoded_frames": 12854,
+        "planning_predict_calls": 27000,
+        "prequential_actual_encode_calls": 114,
+        "prequential_actual_encoded_frames": 114,
+        "prequential_prediction_action_encode_calls": 114,
+        "prequential_prediction_action_tokens": 294,
+        "prequential_prediction_context_frames": 294,
+        "prequential_prediction_encode_calls": 114,
+        "prequential_prediction_encoded_frames": 294,
+        "prequential_prediction_predict_calls": 114,
+        "residual_optimizer_steps": 98,
+        "residual_training_backward_calls": 712,
+        "training_action_encode_calls": 98,
+        "training_action_tokens": 428,
+        "training_context_frames": 1244,
+        "training_encode_calls": 98,
+        "training_encoded_frames": 428,
+        "training_predict_calls": 712
+      },
+      "counts_cases_reporting": {
+        "action_backward_calls": 16,
+        "model_loads": 16,
+        "monitor_actual_encode_calls": 16,
+        "monitor_actual_encoded_frames": 16,
+        "monitor_plan_action_encode_calls": 16,
+        "monitor_plan_action_tokens": 16,
+        "monitor_plan_context_frames": 16,
+        "monitor_plan_encode_calls": 16,
+        "monitor_plan_encoded_frames": 16,
+        "monitor_plan_predict_calls": 16,
+        "physical_actions": 16,
+        "planning_action_encode_calls": 16,
+        "planning_action_tokens": 16,
+        "planning_context_frames": 16,
+        "planning_encode_calls": 16,
+        "planning_encoded_frames": 16,
+        "planning_predict_calls": 16,
+        "prequential_actual_encode_calls": 16,
+        "prequential_actual_encoded_frames": 16,
+        "prequential_prediction_action_encode_calls": 16,
+        "prequential_prediction_action_tokens": 16,
+        "prequential_prediction_context_frames": 16,
+        "prequential_prediction_encode_calls": 16,
+        "prequential_prediction_encoded_frames": 16,
+        "prequential_prediction_predict_calls": 16,
+        "residual_optimizer_steps": 16,
+        "residual_training_backward_calls": 16,
+        "training_action_encode_calls": 16,
+        "training_action_tokens": 16,
+        "training_context_frames": 16,
+        "training_encode_calls": 16,
+        "training_encoded_frames": 16,
+        "training_predict_calls": 16
+      },
+      "time_totals": {
+        "planning_total_wall_seconds": 985.1949272016063,
+        "training_total_wall_seconds": 30.704167899442837,
+        "monitor_total_wall_seconds": 15.168801097432151,
+        "wall_seconds": 1270.4651332998183
+      },
+      "time_means": {
+        "planning_total_wall_seconds": 61.574682950100396,
+        "training_total_wall_seconds": 1.9190104937151773,
+        "monitor_total_wall_seconds": 0.9480500685895095,
+        "wall_seconds": 79.40407083123864
+      },
+      "totals": {
+        "residual_updates": 98,
+        "replan_rounds": 54,
+        "reuse_rounds": 60,
+        "rounds": 114
+      },
+      "physical_actions": 570
+    }
+  },
+  "trajectory_weighted_descriptions": {
+    "B": {
+      "per_group": {
+        "val:1": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:10": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:11": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:12": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:13": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:14": {
+          "cases": 2,
+          "success_by100": 2,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 0.5,
+          "mean_capped100": 35,
+          "mean_capped25": 25,
+          "physical_actions": 70
+        },
+        "val:20": {
+          "cases": 2,
+          "success_by100": 2,
+          "success_by25": 2,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 50
+        },
+        "val:3": {
+          "cases": 2,
+          "success_by100": 2,
+          "success_by25": 2,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 50
+        },
+        "val:4": {
+          "cases": 2,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 0.5,
+          "success_rate_by25": 0.5,
+          "mean_capped100": 62.5,
+          "mean_capped25": 25,
+          "physical_actions": 125
+        },
+        "val:6": {
+          "cases": 2,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 0.5,
+          "success_rate_by25": 0.5,
+          "mean_capped100": 62.5,
+          "mean_capped25": 25,
+          "physical_actions": 125
+        },
+        "val:9": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        }
+      },
+      "equal_trajectory_success_rate_by100": 0.9090909090909091,
+      "equal_trajectory_success_rate_by25": 0.8636363636363636,
+      "equal_trajectory_mean_capped100": 32.72727272727273
+    },
+    "BR": {
+      "per_group": {
+        "val:1": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:10": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:11": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:12": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:13": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:14": {
+          "cases": 2,
+          "success_by100": 2,
+          "success_by25": 2,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 50
+        },
+        "val:20": {
+          "cases": 2,
+          "success_by100": 2,
+          "success_by25": 2,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 50
+        },
+        "val:3": {
+          "cases": 2,
+          "success_by100": 2,
+          "success_by25": 2,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 50
+        },
+        "val:4": {
+          "cases": 2,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 0.5,
+          "success_rate_by25": 0.5,
+          "mean_capped100": 62.5,
+          "mean_capped25": 25,
+          "physical_actions": 125
+        },
+        "val:6": {
+          "cases": 2,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 0.5,
+          "success_rate_by25": 0.5,
+          "mean_capped100": 62.5,
+          "mean_capped25": 25,
+          "physical_actions": 125
+        },
+        "val:9": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 20,
+          "mean_capped25": 20,
+          "physical_actions": 20
+        }
+      },
+      "equal_trajectory_success_rate_by100": 0.9090909090909091,
+      "equal_trajectory_success_rate_by25": 0.9090909090909091,
+      "equal_trajectory_mean_capped100": 31.363636363636363
+    },
+    "BG": {
+      "per_group": {
+        "val:1": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:10": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:11": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:12": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:13": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:14": {
+          "cases": 2,
+          "success_by100": 2,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 0.5,
+          "mean_capped100": 27.5,
+          "mean_capped25": 25,
+          "physical_actions": 55
+        },
+        "val:20": {
+          "cases": 2,
+          "success_by100": 2,
+          "success_by25": 2,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 50
+        },
+        "val:3": {
+          "cases": 2,
+          "success_by100": 2,
+          "success_by25": 2,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 50
+        },
+        "val:4": {
+          "cases": 2,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 0.5,
+          "success_rate_by25": 0.5,
+          "mean_capped100": 62.5,
+          "mean_capped25": 25,
+          "physical_actions": 125
+        },
+        "val:6": {
+          "cases": 2,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 0.5,
+          "success_rate_by25": 0.5,
+          "mean_capped100": 62.5,
+          "mean_capped25": 25,
+          "physical_actions": 125
+        },
+        "val:9": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        }
+      },
+      "equal_trajectory_success_rate_by100": 0.9090909090909091,
+      "equal_trajectory_success_rate_by25": 0.8636363636363636,
+      "equal_trajectory_mean_capped100": 32.04545454545455
+    },
+    "BRG": {
+      "per_group": {
+        "val:1": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:10": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:11": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 0,
+          "success_rate_by100": 1,
+          "success_rate_by25": 0,
+          "mean_capped100": 35,
+          "mean_capped25": 25,
+          "physical_actions": 35
+        },
+        "val:12": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:13": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        },
+        "val:14": {
+          "cases": 2,
+          "success_by100": 2,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 0.5,
+          "mean_capped100": 30,
+          "mean_capped25": 25,
+          "physical_actions": 60
+        },
+        "val:20": {
+          "cases": 2,
+          "success_by100": 2,
+          "success_by25": 2,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 50
+        },
+        "val:3": {
+          "cases": 2,
+          "success_by100": 2,
+          "success_by25": 2,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 50
+        },
+        "val:4": {
+          "cases": 2,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 0.5,
+          "success_rate_by25": 0.5,
+          "mean_capped100": 62.5,
+          "mean_capped25": 25,
+          "physical_actions": 125
+        },
+        "val:6": {
+          "cases": 2,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 0.5,
+          "success_rate_by25": 0.5,
+          "mean_capped100": 62.5,
+          "mean_capped25": 25,
+          "physical_actions": 125
+        },
+        "val:9": {
+          "cases": 1,
+          "success_by100": 1,
+          "success_by25": 1,
+          "success_rate_by100": 1,
+          "success_rate_by25": 1,
+          "mean_capped100": 25,
+          "mean_capped25": 25,
+          "physical_actions": 25
+        }
+      },
+      "equal_trajectory_success_rate_by100": 0.9090909090909091,
+      "equal_trajectory_success_rate_by25": 0.7727272727272727,
+      "equal_trajectory_mean_capped100": 33.18181818181818
+    }
+  },
+  "factorial_interaction": {
+    "definition": "BRG - BR - BG + B; descriptive only",
+    "per_draw": [
+      {
+        "draw_index": 0,
+        "capped100": 0,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 1,
+        "capped100": 25,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 2,
+        "capped100": 0,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 3,
+        "capped100": 0,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 4,
+        "capped100": 0,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 5,
+        "capped100": 0,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 6,
+        "capped100": 0,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 7,
+        "capped100": 0,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 8,
+        "capped100": 0,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 9,
+        "capped100": 0,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 10,
+        "capped100": 5,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 11,
+        "capped100": 0,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 12,
+        "capped100": 0,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 13,
+        "capped100": 10,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 14,
+        "capped100": 0,
+        "success_by100": 0
+      },
+      {
+        "draw_index": 15,
+        "capped100": 0,
+        "success_by100": 0
+      }
+    ],
+    "mean_capped100": 2.5,
+    "mean_success_by100": 0
+  },
+  "independent_confirmation": false,
+  "model_calls_in_analysis": 0,
+  "physical_actions_in_analysis": 0,
+  "limits": [
+    "All windows are consumed development data; repeated trajectories are dependent.",
+    "Matched main tables include only draws with all four completed and audited arms.",
+    "All-completed tables can have unmatched task mixtures and are not performance comparisons.",
+    "Success by 100 and capped-100 interactions are primary; success by 25 is secondary.",
+    "No IID confidence interval, novelty, SOTA or acceptance-probability claim.",
+    "Input hashes verify saved receipts, not an independent model or simulator rerun.",
+    "Count keys absent in a case are shown in reporting coverage, not silently verified as zero.",
+    "Partial/failed cases are listed; their consumed compute is not included in completed budgets."
+  ]
+}

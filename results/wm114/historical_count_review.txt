@@ -1,0 +1,12 @@
+WM114最终表格机械核对：通过。
+实际路径：controller_v1/final_analysis；64个case完整，16窗口、11轨迹组。
+本次独立重算：64行case CSV、48行配对CSV的计数/均值/恢复新增失败/规划次数/记录耗时；与64份summary及终态相符；145份manifest JSON哈希全部相符。
+本次未重算：大NPZ中的原始轨迹/成功几何，未重新运行模型/仿真/训练；墙钟为原运行记录，不是独立计时试验。
+B: by100=14/16, by25=13/16, capped100=35.625, replans=114, mean recorded wall=134.694929s
+BR: by100=14/16, by25=14/16, capped100=34.0625, replans=109, mean recorded wall=141.649929s
+BG: by100=14/16, by25=13/16, capped100=34.6875, replans=51, mean recorded wall=67.918000s
+BRG: by100=14/16, by25=12/16, capped100=35.625, replans=54, mean recorded wall=79.404071s
+100步恢复/新增失败：所有新增臂均0；失败目标均为draw11与draw12。
+draw1 B/BR/BG/BRG=45/25/30/35步；draw10=25/20/25/25步；draw13=25/25/25/35步。
+BR25步恢复draw1；BRG25步新增失败draw13，但35步成功，不能写成100步失败。
+所有窗口均已消费开发数据，本核对不作创新、机制或独立泛化结论。
