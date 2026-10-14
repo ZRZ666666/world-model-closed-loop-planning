@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this software archive and the relevant upstream research. Include the commit used."
+type: software
+title: "Closed-Loop Planning with Frozen Visual World Models"
+authors:
+  - name: "ZRZ666666"
+    website: "https://github.com/ZRZ666666"
+repository-code: "https://github.com/ZRZ666666/world-model-closed-loop-planning"
+url: "https://github.com/ZRZ666666/world-model-closed-loop-planning"
+abstract: >-
+  Research code and saved development results for arrival deadlines,
+  temporal context, and feedback-gated plan reuse with a frozen visual
+  world model in PushT. The archive uses Temporal Straightening as its
+  model and planner dependency.
+keywords:
+  - visual world models
+  - closed-loop planning
+  - model predictive control
+  - temporal context
+  - adaptive replanning

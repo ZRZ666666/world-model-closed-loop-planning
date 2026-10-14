@@ -1,8 +1,8 @@
 # 代码来源、依赖与许可
 
-## 本仓库整理的内容
+## 源码范围
 
-本次从已有研究工作目录选择 23 个实验、适配和分析源文件，保留其 `work/` 相对路径，存放于 `archive/work/`。所有公开副本与原件文件哈希相同；清单见 `archive/source_manifest.json`。这说明复制内容一致，不代表代码已经在新仓库重新运行或得到新的复现结果。
+本仓库保留 23 个实验、适配和分析源文件，沿用 `work/` 相对路径，存放于 `archive/work/`。公开源码与来源文件的 SHA256 一致；清单见 [`archive/source_manifest.json`](../archive/source_manifest.json)。哈希用于确认代码版本，不代替运行复现。方法、实验及资产要求分别见 [METHOD.md](METHOD.md)、[EXPERIMENTS.md](EXPERIMENTS.md) 和 [REPRODUCIBILITY.md](REPRODUCIBILITY.md)。
 
 “本地实现”指研究过程中编写的实验连接、记录、审计和方法移植代码。它不意味着相关算法思想全部原创，也不改变其调用的第三方代码和模型的归属。
 
